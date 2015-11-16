@@ -1,0 +1,93 @@
+// navBar
+.navbar-sider {
+  width: 45px;
+  position: fixed;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background-color: $stable;
+  z-index: 999;
+  .fa-mobile {
+    font-size: 22px;
+  }
+}
+
+.left-aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 45px;
+}
+.navbar-user {
+  position: fixed;
+  top: 5px;
+  left: 10px;
+  margin-bottom: 0;
+  z-index: 1010;
+  a {
+    font-size: 12px;
+    margin-right: 20px;
+  }
+}
+
+.nav-user-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.navbar {
+  a {
+    display: block;
+    line-height: 45px;
+    color: $light;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    text-decoration: none;
+    &:hover {
+      color: $light;
+      background-color: $calm;
+    }
+  }
+  .brand-logo {
+    font-size: 20px;
+    background-color: $positive;
+    padding: 0 5px;
+    &:hover {
+      background-color: $positive;
+    }
+  }
+}
+
+.header-fixed {
+  width: 100%;
+  padding-left: 10px;
+  border-bottom: 1px solid $gray;
+  position: fixed;
+  top: 0;
+  background-color: $light;
+  z-index: 99;
+  .nav-sub {
+    .item {
+      display: inline-block;
+      margin-right: -4px;
+      font-size: 12px;
+      text-align: center;
+      padding: 15px;
+      color: $dark;
+      transition: all 0.3s;
+      &.current,
+      &:hover {
+        border-bottom: 1px solid $calm;
+        color: $positive;
+        margin-bottom: -1px;
+      }
+      &:hover {
+        background-color: $gray;
+      }
+    }
+  }
+}

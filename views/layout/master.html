@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- meta -->
+  <meta charset="utf-8"/>
+  <meta name='description' content='<%= config.description %>'>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="keywords" content="<%= config.keywords %>"/>
+  <meta name="apple-itunes-app" content="app-id=954734793">
+  <!-- see http://smerity.com/articles/2013/where_did_all_the_http_referrers_go.html -->
+  <meta name="referrer" content="always">
+
+  <%
+  var headers = config.site_headers || [];
+  for (var i = 0, l = headers.length; i < l; i++) {
+  %>
+  <%- headers[i] %>
+  <% } %>
+
+  <link title="RSS" type="application/rss+xml" rel="alternate" href="/rss"/>
+
+  <% if (config.site_icon) { %>
+  <link rel="icon" href="<%- staticFile(config.site_icon) %>" type="image/x-icon"/>
+  <% } %>
+
+  <!-- style -->
+  <%- Loader('/public/css/index.min.css')
+  .css('/public/libs/bootstrap/css/bootstrap.css')
+  .css('/public/css/font/awesome.css')
+  .css('/public/css/pure.min.css')
+  .css('/public/css/app.css')
+  .css('/public/components/jquery-dropdown/jquery.dropdown.css')
+  .css('/public/components/tooltipster/css/tooltipster.css')
+  .css('/public/components/tooltipster/css/themes/tooltipster-light.css')
+  .css('/public/components/animation/animate.css')
+  .css('/public/stylesheets/jquery.atwho.css')
+  .css('/public/libs/editor/editor.css')
+  .done(assets, config.site_static_host, config.mini_assets)
+  %>
+
+  <!-- scripts -->
+  <%- Loader('/public/css/index.min.js')
+  .js('/public/components/jquery/dist/jquery.min.js')
+  .js('/public/libs/bootstrap/js/bootstrap.js')
+  .js('/public/components/tooltipster/js/jquery.tooltipster.js')
+  .js('/public/components/jquery-ujs/src/rails.js')
+  .js('/public/components/jquery-dropdown/jquery.dropdown.min.js')
+  .js('/public/libs/lodash.compat.js')
+  .js('/public/libs/jquery.caret.js')
+  .js('/public/libs/jquery.atwho.js')
+  .js('/public/libs/markdownit.js')
+  .done(assets, config.site_static_host, config.mini_assets)
+  %>
+
+  <% if (typeof(topic) !== 'undefined') { %>
+  <title><%= topic.title %> - <%= config.name %></title>
+  <% } else if (typeof(pageTitle) !== 'undefined') { %>
+  <title><%= pageTitle %> - <%= config.name %></title>
+  <% } else { %>
+  <title><%= config.description %></title>
+  <% } %>
+  <meta content="_csrf" name="csrf-param">
+  <meta content="<%= csrf %>" name="csrf-token">
+</head>
+<body>
+<!-- navbar -->
+<div class='navbar navbar-sider'>
+  <div class="nav-main">
+    <ul>
+      <li>
+        <a class='brand-logo' href="/">
+          <% if (config.site_logo) {%>
+           <img src="<%- staticFile(config.site_logo) %>" />
+          <%} else {%>
+            <%- config.short_name %>
+          <%}%>
+        </a>
+        </li>
+        <li class="tooltipstered"><a href="" title="专题列表"><i class="fa fa-th"></i></a></li>
+        <% if (current_user !== null){ %>
+        <li class="tooltipstered"><a href="" title="圈子"><i class="fa fa-users"></i></a></li>
+        <li class="tooltipstered"><a href="/topic/create" title="发布"><i class="fa fa-pencil"></i></a></li>
+        <li class="tooltipstered"><a href="/favourites" title="收藏"><i class="fa fa-star"></i></a></li>
+        <% }else{ %>
+        <li class="tooltipstered"><a href="/signup" title="注册"><i class="fa fa-sign-in"></i></a></li>
+        <li class="tooltipstered"><a href="/signin" title="登录"><i class="fa fa-user"></i></a></li>
+        <% } %>
+    </ul>
+  </div>
+  <div class="nav-user-bottom">
+    <ul>
+      <li class="tooltipstered"><a href="" title="下载App"><i class="fa fa-mobile"></i></a></li>
+      <% if (current_user !== null){ %>
+      <li><a href="/user/<%= current_user.name %>/notifications" title="消息"><i class="fa fa-bell"></i></a></li>
+      <li><a href="/signout" data-method="post" title="退出"><i class="fa fa-sign-out"></i></a></li>
+      <% } %>
+      <li><a href="/setting" title="设置"><i class="fa fa-cogs"></i></a></li>
+    </ul>
+  </div>
+</div>
+<!-- navbar user -->
+
+<div class="row row-home" id='main'>
+  <div class="span-7 offset-2">
+    <%- body %>
+  </div>
+</div>
+<% if(typeof(success) !== 'undefined' && success){ %>
+<div class="alert alert-success animated bounceInDown" role="alert">
+  <i class="fa fa-info-circle"></i><%= success %>
+</div>
+<% } %>
+<% if(typeof(error) !== 'undefined' && error){ %>
+<div class="alert alert-danger animated bounceInDown" role="alert">
+  <i class="fa fa-times-circle"></i><%= error %>
+</div>
+<% } %>
+
+
+
+
+<% if (config.cnzz_tracker_id) { %>
+<div style="display:none;">
+  <script src="//s95.cnzz.com/z_stat.php?id=<%- config.cnzz_tracker_id %>&web_id=<%- config.cnzz_tracker_id %>" language="JavaScript"></script>
+</div>
+<% } %>
+
+<script>
+  $(function(){
+    $('.navbar-sider a').tooltipster({
+      position: 'right',
+      theme: 'tooltipster-light'
+    });
+  })
+  </script>
+</body>
+</html>

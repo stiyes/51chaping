@@ -1,0 +1,36 @@
+.user-avatar {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-info {
+  text-align: center;
+  padding: 30px 0;
+  .user-big-avatar {
+    display: inline-block;
+    width: 96px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+  .user-profile {
+    padding-top: 10px;
+    dt {
+      font-size: 24px;
+      a {
+        color: $positive;
+      }
+      .fa {
+        font-size: 16px;
+   	margin-left: 10px;
+      }
+    }
+    dt,
+    dd {
+      margin-bottom: 8px
+    }
+  }
+}

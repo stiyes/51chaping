@@ -1,0 +1,38 @@
+<% layout('layout/one.html') -%>
+<div class="sign">
+    <div class="slogan">
+        <h1>差评网</h1>
+        <em>差若毫厘,谬以千里,其此之谓乎?</em>
+    </div>
+    <h4 class="title">
+      <span>
+        <a href="/signin">登录</a>
+        <b>·</b>
+        <a class="active" href="/signup">注册</a>
+      </span>
+    </h4>
+
+    <div>
+        <div class="sign-up">
+            <form action="/signup" method="post">
+                <div class="input-wrap">
+                    <span class="icon-before"><i class="fa fa-envelope-o"></i></span>
+                    <input class="span-2" id="sign_up_email" name="email" placeholder="常用的邮箱" type="text" value="">
+                </div>
+                <div class="input-wrap">
+                    <span class="icon-before"><i class="fa fa-user"></i></span>
+                    <input class="span-2" id="loginname" name="loginname" placeholder="腻歪的称呼" type="text" value="">
+                </div>
+                <div class="input-wrap">
+                    <span class="icon-before"><i class="fa fa-unlock-alt"></i></span>
+                    <input class="span-2" id="sign_up_password" name="pass" placeholder="输入密码" type="password">
+                </div>
+
+                <button class="button button-block button-positive">
+                    <span class="label">注册</span>
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>

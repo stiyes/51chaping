@@ -1,0 +1,13 @@
+<div class="topic-list">
+  <%- partial('../topic/abstract', {collection:topics, as:'topic'}) %>
+</div>
+<div class='more' current_page='<%= current_page %>'>
+  <ul>
+    <% var base_url = base + (base.indexOf('?') < 0 ? '?' : '&')
+      + 'tab=' + (typeof tab !== 'undefined' ? tab : '') + '&page='; %>
+
+    <% if (current_page !== pages) { %>
+    <li><a href='<%= base_url + pages %>'>查看更多》</a></li>
+    <% } %>
+  </ul>
+</div>

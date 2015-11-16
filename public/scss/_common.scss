@@ -1,0 +1,105 @@
+
+// Colors
+// -------------------------------
+
+$light:                           #fff !default;
+$stable:                          #2f2f2f !default;
+$positive:                        #00b160 !default;
+$calm:                            #026b3b !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #9befc8 !default;
+$assertive:                       #e78170 !default;
+$royal:                           #f2a194 !default;
+$dark:                            #555 !default;
+$darken:                          #000 !default;
+$gray:                            #eee !default;
+
+
+// Buttons
+// -------------------------------
+
+$button-color:                    #222 !default;
+$button-block-margin:             10px !default;
+$button-clear-padding:            6px !default;
+$button-border-radius:            2px !default;
+$button-border-width:             1px !default;
+
+$button-font-size:                16px !default;
+$button-height:                   42px !default;
+$button-padding:                  12px !default;
+$button-icon-size:                24px !default;
+
+$button-large-font-size:          20px !default;
+$button-large-height:             54px !default;
+$button-large-padding:            16px !default;
+$button-large-icon-size:          32px !default;
+
+$button-small-font-size:          12px !default;
+$button-small-height:             28px !default;
+$button-small-padding:            4px !default;
+$button-small-icon-size:          16px !default;
+
+$button-bar-button-font-size:     13px !default;
+$button-bar-button-height:        32px !default;
+$button-bar-button-padding:       8px !default;
+$button-bar-button-icon-size:     20px !default;
+
+$button-light-bg:                 $light !default;
+$button-light-text:               #444 !default;
+$button-light-border:             #ddd !default;
+$button-light-active-bg:          #fafafa !default;
+$button-light-active-border:      #ccc !default;
+
+$button-stable-bg:                $stable !default;
+$button-stable-text:              #444 !default;
+$button-stable-border:            #b2b2b2 !default;
+$button-stable-active-bg:         #e5e5e5 !default;
+$button-stable-active-border:     #a2a2a2 !default;
+
+$button-positive-bg:              $positive !default;
+$button-positive-text:            #fff !default;
+$button-positive-border:          darken($positive, 10%) !default;
+$button-positive-active-bg:       darken($positive, 10%) !default;
+$button-positive-active-border:   darken($positive, 10%) !default;
+
+$button-calm-bg:                  $calm !default;
+$button-calm-text:                #fff !default;
+$button-calm-border:              darken($calm, 10%) !default;
+$button-calm-active-bg:           darken($calm, 10%) !default;
+$button-calm-active-border:       darken($calm, 10%) !default;
+
+$button-assertive-bg:             $assertive !default;
+$button-assertive-text:           #fff !default;
+$button-assertive-border:         darken($assertive, 10%) !default;
+$button-assertive-active-bg:      darken($assertive, 10%) !default;
+$button-assertive-active-border:  darken($assertive, 10%) !default;
+
+$button-balanced-bg:              $balanced !default;
+$button-balanced-text:            #fff !default;
+$button-balanced-border:          darken($balanced, 10%) !default;
+$button-balanced-active-bg:       darken($balanced, 10%) !default;
+$button-balanced-active-border:   darken($balanced, 10%) !default;
+
+$button-energized-bg:             $energized !default;
+$button-energized-text:           #fff !default;
+$button-energized-border:         darken($energized, 5%) !default;
+$button-energized-active-bg:      darken($energized, 5%) !default;
+$button-energized-active-border:  darken($energized, 5%) !default;
+
+$button-royal-bg:                 $royal !default;
+$button-royal-text:               #fff !default;
+$button-royal-border:             darken($royal, 8%) !default;
+$button-royal-active-bg:          darken($royal, 8%) !default;
+$button-royal-active-border:      darken($royal, 8%) !default;
+
+$button-dark-bg:                  $dark !default;
+$button-dark-text:                #fff !default;
+$button-dark-border:              #111 !default;
+$button-dark-active-bg:           #262626 !default;
+$button-dark-active-border:       #000 !default;
+
+$button-default-bg:               $button-stable-bg !default;
+$button-default-text:             $button-stable-text !default;
+$button-default-border:           $button-stable-border !default;
+$button-default-active-bg:        $button-stable-active-bg !default;
+$button-default-active-border:    $button-stable-active-border !default;

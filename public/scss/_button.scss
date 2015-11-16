@@ -1,0 +1,62 @@
+.button {
+  // set the color defaults
+  @include button-style($button-default-bg, $button-default-border, $button-default-active-bg, $button-default-active-border, $button-default-text);
+
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0 $button-padding;
+
+  min-width: ($button-padding * 3) + $button-font-size;
+  min-height: $button-height + 5px;
+
+  border-width: $button-border-width;
+  border-style: solid;
+  border-radius: $button-border-radius;
+
+  vertical-align: top;
+  text-align: center;
+
+  text-overflow: ellipsis;
+  font-size: $button-font-size;
+  line-height: $button-height - $button-border-width + 1px;
+
+  cursor: pointer;
+
+  &:after {
+    // used to create a larger button "hit" area
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    bottom: -6px;
+    left: -6px;
+    content: ' ';
+  }
+
+  .icon {
+    vertical-align: top;
+    pointer-events: none;
+  }
+
+  &.icon-left:before {
+    float: left;
+    padding-right: .2em;
+    padding-left: 0;
+  }
+  &.icon-right:before {
+    float: right;
+    padding-right: 0;
+    padding-left: .2em;
+  }
+  &.button-block, &.button-full {
+    display: block;
+    width: 100%;
+    margin-top: $button-block-margin;
+    margin-bottom: $button-block-margin;
+  }
+  &.button-positive {
+    @include button-style($button-positive-bg, $button-positive-border, $button-positive-active-bg, $button-positive-active-border, $button-positive-text);
+    @include button-clear($button-positive-bg);
+    @include button-outline($button-positive-bg);
+  }
+}

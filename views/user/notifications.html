@@ -1,0 +1,14 @@
+<div class='panel'>
+  <div class='header'>
+    <ul class='breadcrumb'>
+      <li class='active'><%= notifications.length %> 条提醒 </li>
+    </ul>
+  </div>
+  <div class='topic-list'>
+    <% if (notifications.list.length > 0) { %>
+      <%- partial('../user/abstract', {collection:notifications.list, as:'notification'}) %>
+    <% } else { %>
+    <p>找不到话题 (T_T)</p>
+    <% } %>
+  </div>
+</div>

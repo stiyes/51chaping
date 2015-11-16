@@ -1,0 +1,133 @@
+.row {
+  width: 100%;
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0
+  }
+  &:after {
+    clear: both
+  }
+  .span-1 {
+    width: 8.33333%;
+    *width: 8.28014%
+  }
+  .span-2 {
+    width: 16.66667%;
+    *width: 16.61348%
+  }
+  .span-3 {
+    width: 25.0%;
+    *width: 24.94681%
+  }
+  .span-4 {
+    width: 33.33333%;
+    *width: 33.28014%
+  }
+  .span-5 {
+    width: 41.66667%;
+    *width: 41.61348%
+  }
+  .span-6 {
+    width: 50.0%;
+    *width: 49.94681%
+  }
+  .span-7 {
+    width: 58.33333%;
+    *width: 58.28014%
+  }
+  .span-8 {
+    width: 66.66667%;
+    *width: 66.61348%
+  }
+  .span-9 {
+    width: 75.0%;
+    *width: 74.94681%
+  }
+  .span-10 {
+    width: 83.33333%;
+    *width: 83.28014%
+  }
+  .span-11 {
+    width: 91.66667%;
+    *width: 91.61348%
+  }
+  .span-12 {
+    width: 100.0%;
+    *width: 99.94681%
+  }
+  .offset-1 {
+    margin-left: 8.33333%;
+    *margin-left: 8.22695%;
+    &:first-child {
+      margin-left: 8.33333%;
+      *margin-left: 8.22695%
+    }
+  }
+  .offset-2 {
+    margin-left: 16.66667%;
+    *margin-left: 16.56028%;
+    &:first-child {
+      margin-left: 16.66667%;
+      *margin-left: 16.56028%
+    }
+  }
+  .offset-3 {
+    margin-left: 25.0%;
+    *margin-left: 24.89362%;
+    &:first-child {
+      margin-left: 25.0%;
+      *margin-left: 24.89362%
+    }
+  }
+  .offset-4 {
+    margin-left: 33.33333%;
+    *margin-left: 33.22695%;
+    &:first-child {
+      margin-left: 33.33333%;
+      *margin-left: 33.22695%;
+    }
+  }
+  .offset-5 {
+    margin-left: 41.66667%;
+    *margin-left: 41.56028%;
+    &:first-child {
+      margin-left: 41.66667%;
+      *margin-left: 41.56028%;
+    }
+  }
+  .offset-6 {
+    margin-left: 50.0%;
+    *margin-left: 49.89362%;
+    &:first-child {
+      margin-left: 50.0%;
+      *margin-left: 49.89362%
+    }
+  }
+  .offset-7 {
+    margin-left: 58.33333%;
+    *margin-left: 58.22695%;
+    &:first-child {
+      margin-left: 58.33333%;
+      *margin-left: 58.22695%
+    }
+  }
+  .offset-8 {
+    margin-left: 66.66667%;
+    *margin-left: 66.56028%;
+    &:first-child {
+      margin-left: 66.66667%;
+      *margin-left: 66.56028%
+    }
+  }
+  .offset-9 {
+    margin-left: 75.0%;
+    *margin-left: 74.89362%;
+    &:first-child {
+      margin-left: 75.0%;
+      *margin-left: 74.89362%
+    }
+  }
+}

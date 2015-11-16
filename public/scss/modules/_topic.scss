@@ -1,0 +1,95 @@
+.author {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  font-size: 12px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+
+.user-card{
+  padding-left: 50px;
+  position: relative;
+  .title{
+    border: 1px solid $positive;
+    color: $positive;
+    border-radius: 5px;
+    padding: 2px 5px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 12px;
+    margin-right: 6px;
+  }
+  .name{
+    color: #06638C;
+  }
+  .avatar{
+    width: 30px;
+    left: 0;
+    padding: 5px;
+    margin: 0 5px 5px;
+    position: absolute;
+    border-radius:50%;
+    &:hover{
+      border: 1px solid $positive;
+      padding: 4px;
+    }
+    img{
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  .board{
+    padding-top: 10px;
+    color: #999;
+  }
+}
+
+.topic-header{
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid $positive;
+  position: relative;
+  overflow: hidden;
+  h2{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .changes{
+    color: #999;
+    font-size: 12px;
+  }
+
+  .put-top{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+    background-color: $positive;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+  }
+
+  .manage{
+    position: absolute;
+
+  }
+
+}
+
+#content{
+  padding: 15px 0 10px;
+  .markdown-text{
+    p{
+      line-height: 27px;
+      font-size: 16px;
+      margin-bottom: 25px
+    }
+  }
+}
