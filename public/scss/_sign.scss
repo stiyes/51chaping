@@ -1,0 +1,85 @@
+.sign{
+	padding: 125px 0 50px;
+  text-align: center;
+  .slogan{
+  	color: $positive;
+  	line-height: 32px;
+  	h1{
+  		font-size: 42px;
+  		line-height: 60px;
+  		font-weight: bolder;
+  	}
+  	em{
+  		font-size: 18px;
+  	}
+  }
+  .title{
+	  margin: 70px auto 50px;
+		border-bottom: 1px solid #eeeeee;
+		color: #b1b1b1;
+		span{
+			position: relative;
+			top: 10px;
+			padding: 0 30px;
+			background: white;
+			.active{
+			  color: #555555;	
+			  font-weight: bold
+			}
+		}
+		b{
+			margin: 0 10px;
+		}
+  }
+  form {
+	  width: 300px;
+	  padding-bottom: 40px;
+	  margin: 0 auto 25px;
+	}
+	.input-wrap {
+	  width: 100%;
+	  margin-bottom: 15px;
+	  .icon-before{
+		  width: 34px;
+		  height: 34px;
+		  background: none;
+		  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+		  font-size: 12px;
+		  font-weight: normal;
+		  line-height: 34px;
+		  display: inline-block;
+		  padding: 4px;
+		  margin-right: -5px;
+		  border-radius:4px 0 0 4px;
+		  border: 1px solid #eee;
+	    vertical-align: top;	
+		}
+		input {
+		  width: 228px;
+		  width: calc(100% - 44px);
+		  height: 44px;
+		  padding: 4px 12px;
+		  box-shadow: none;
+		  box-sizing: border-box;
+		  border: 1px solid #eee;
+		  border-radius:0 4px 4px 0;
+		}
+	}
+	.button{
+		margin-top: 40px;
+	}
+}
+
+.navbar-user-wrapper{
+	position: relative;
+	.avatar{
+		width: 35px;
+		border-radius:100%;
+		display: block;
+		overflow: hidden;
+		img{
+			width: 100%;
+		}
+	}
+}
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- meta -->
+  <meta charset="utf-8"/>
+  <meta name='description' content='<%= config.description %>'>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="keywords" content="<%= config.keywords %>"/>
+  <meta name="apple-itunes-app" content="app-id=954734793">
+  <!-- see http://smerity.com/articles/2013/where_did_all_the_http_referrers_go.html -->
+  <meta name="referrer" content="always">
+
+  <%
+  var headers = config.site_headers || [];
+  for (var i = 0, l = headers.length; i < l; i++) {
+  %>
+  <%- headers[i] %>
+  <% } %>
+
+  <link title="RSS" type="application/rss+xml" rel="alternate" href="/rss"/>
+
+  <% if (config.site_icon) { %>
+  <link rel="icon" href="<%- staticFile(config.site_icon) %>" type="image/x-icon"/>
+  <% } %>
+
+  <!-- style -->
+  <%- Loader('/public/css/index.min.css')
+  .css('/public/css/index.css')
+  .done(assets, config.site_static_host, config.mini_assets)
+  %>
+
+  <!-- scripts -->
+  <%- Loader('/public/css/index.min.js')
+  .js('/public/components/jquery/dist/jquery.min.js')
+  .done(assets, config.site_static_host, config.mini_assets)
+  %>
+
+  <% if (typeof(topic) !== 'undefined') { %>
+  <title><%= topic.title %> - <%= config.name %></title>
+  <% } else if (typeof(pageTitle) !== 'undefined') { %>
+  <title><%= pageTitle %> - <%= config.name %></title>
+  <% } else { %>
+  <title><%= config.description %></title>
+  <% } %>
+  <meta content="_csrf" name="csrf-param">
+  <meta content="<%= csrf %>" name="csrf-token">
+</head>
+<body>
+<!-- navbar -->
+<div class='navbar navbar-sider'>
+  <div class="nav-main">
+    <ul>
+      <li>
+        <a class='brand' href="">
+          <% if (config.site_logo) {%>
+            <img src="<%- staticFile(config.site_logo) %>" />
+          <%} else {%>
+            <%- config.short_name %>
+          <%}%>
+        </a>
+        <a href=""><i class="fa fa-th"></i></a>
+        <a href=""><i class="fa fa-users"></i></a>
+        <a href=""><i class="fa fa-pencil"></i></a>
+        <a href=""><i class="fa fa-mobile"></i></a>
+      </li>
+    </ul>
+  </div>
+  <div class="nav-user-bottom">
+    <ul>
+      <li><a href=""><i class="fa fa-users"></i></a></li>
+      <li><a href=""><i class="fa fa-bell"></i></a></li>
+      <li><a href=""><i class="fa fa-cogs"></i></a></li>
+      <li><a href=""><i class="fa fa-sign-out"></i></a></li>
+    </ul>
+  </div>
+</div>
+<!-- navbar user -->
+<div class="navbar-user">
+  <a href="/signup">
+  <i class="fa fa-sign-in"></i>注册
+  </a>
+  <a href="/signin">
+  <i class="fa fa-user"></i>登陆
+  </a>
+</div>
+
+<div id='main'>
+  <%- body %>
+</div>
+
+
+<% if (config.cnzz_tracker_id) { %>
+<div style="display:none;">
+  <script src="//s95.cnzz.com/z_stat.php?id=<%- config.cnzz_tracker_id %>&web_id=<%- config.cnzz_tracker_id %>" language="JavaScript"></script>
+</div>
+<% } %>
+
+</body>
+</html>

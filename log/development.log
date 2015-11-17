@@ -9012,3 +9012,72 @@ Completed 200 [32m(21ms)[39m
 Started 2015-11-12T10:41:17.648Z GET /topic/564059b5ab1096ee5766727d ::1
   Render view topic/index [32m(6ms)[39m
 Completed 200 [32m(16ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T04:20:33.095Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(37ms)[39m
+Completed 200 [32m(108ms)[39m
+
+
+Started 2015-11-17T04:20:35.030Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(32ms)[39m
+
+
+Started 2015-11-17T04:20:35.947Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-17T04:20:38.109Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-17T04:20:40.964Z GET / ::1
+  Render view index [32m(8ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-17T04:20:43.349Z GET / ::1
+  Render view index [32m(7ms)[39m
+Completed 304 [32m(23ms)[39m
+
+
+Started 2015-11-17T04:20:44.700Z GET /?tab=daily ::1
+  Render view index [32m(3ms)[39m
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-17T04:20:49.032Z GET /topic/564460ec5f84f4941d508d70 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T04:21:14.019Z GET /?tab=oscar ::1
+  Render view index [32m(3ms)[39m
+Completed 200 [32m(11ms)[39m
+
+
+Started 2015-11-17T04:21:15.253Z GET /?tab=daily ::1
+  Render view index [32m(4ms)[39m
+Completed 200 [32m(12ms)[39m
+
+
+Started 2015-11-17T04:21:16.060Z GET /?tab=all ::1
+  Render view index [32m(7ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-17T04:21:17.149Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-17T04:22:39.899Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(21ms)[39m
