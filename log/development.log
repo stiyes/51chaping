@@ -12188,3 +12188,556 @@ Completed 200 [32m(26ms)[39m
 Started 2015-11-18T08:55:00.008Z GET /topic/564059b5ab1096ee5766727d ::1
   Render view topic/index [32m(13ms)[39m
 Completed 200 [32m(32ms)[39m
+
+
+Started 2015-11-18T08:58:03.999Z GET / ::1
+  Render view index [32m(12ms)[39m
+Completed 200 [32m(31ms)[39m
+
+
+Started 2015-11-18T08:58:08.456Z POST /signout ::1
+Completed 302 [32m(7ms)[39m
+
+
+Started 2015-11-18T08:58:08.466Z GET / ::1
+  Render view index [32m(5ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T08:58:09.889Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(15ms)[39m
+
+
+Started 2015-11-18T08:59:05.717Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(12ms)[39m
+
+
+Started 2015-11-18T08:59:06.813Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(11ms)[39m
+
+
+Started 2015-11-18T08:59:07.218Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(12ms)[39m
+
+
+Started 2015-11-18T08:59:15.177Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(11ms)[39m
+
+
+Started 2015-11-18T08:59:16.792Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(11ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T09:00:08.159Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(43ms)[39m
+Completed 200 [32m(105ms)[39m
+
+
+Started 2015-11-18T09:01:11.959Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(13ms)[39m
+Completed 200 [32m(37ms)[39m
+
+
+Started 2015-11-18T09:01:14.962Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T09:01:19.323Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T09:01:39.184Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(14ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T09:01:40.316Z GET /signin ::1
+  Render view sign/signin [32m(3ms)[39m
+Completed 200 [32m(6ms)[39m
+
+
+Started 2015-11-18T09:01:50.411Z POST /signin ::1
+Completed 302 [32m(96ms)[39m
+
+
+Started 2015-11-18T09:01:50.510Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T09:01:53.700Z POST /user/follow ::1
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T09:01:57.642Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T09:02:29.754Z GET /user/stiyes ::1
+  Render view user/index [32m(15ms)[39m
+Completed 500 [32m(35ms)[39m
+
+
+Started 2015-11-18T09:02:57.431Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-18T09:03:00.358Z POST /user/follow ::1
+Completed 200 [32m(9ms)[39m
+
+
+Started 2015-11-18T09:03:02.422Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-18T09:03:48.645Z POST /user/follow ::1
+Completed 200 [32m(12ms)[39m
+
+
+Started 2015-11-18T09:04:10.445Z GET /signin ::1
+  Render view sign/signin [32m(7ms)[39m
+Completed 500 [32m(11ms)[39m
+
+
+Started 2015-11-18T09:04:18.303Z GET / ::1
+  Render view index [32m(11ms)[39m
+Completed 200 [32m(28ms)[39m
+
+
+Started 2015-11-18T09:04:19.645Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-18T09:04:25.268Z POST /user/follow ::1
+Completed 200 [32m(8ms)[39m
+
+
+Started 2015-11-18T09:05:39.113Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-18T09:05:40.921Z POST /user/follow ::1
+Completed 200 [32m(8ms)[39m
+
+
+Started 2015-11-18T09:05:50.240Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(22ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T09:08:13.753Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(40ms)[39m
+Completed 200 [32m(102ms)[39m
+
+
+Started 2015-11-18T09:39:48.731Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(19ms)[39m
+Completed 200 [32m(51ms)[39m
+
+
+Started 2015-11-18T09:40:27.585Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T09:40:28.770Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-18T09:40:29.936Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(13ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T09:41:53.933Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-18T09:41:55.523Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T09:41:56.187Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T09:41:56.766Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-18T09:42:10.852Z POST /user/follow ::1
+Completed 200 [32m(30ms)[39m
+
+
+Started 2015-11-18T09:42:45.573Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-18T09:42:47.484Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T09:42:48.095Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-18T09:43:15.826Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T09:43:16.801Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-18T09:45:58.548Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T09:55:44.106Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T09:55:56.778Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-18T09:56:26.396Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T09:57:31.313Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 500 [32m(24ms)[39m
+
+
+Started 2015-11-18T09:57:54.983Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T09:58:12.279Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(4ms)[39m
+Completed 500 [32m(17ms)[39m
+
+
+Started 2015-11-18T10:04:38.354Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(4ms)[39m
+Completed 500 [32m(19ms)[39m
+
+
+Started 2015-11-18T10:04:39.029Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 500 [32m(20ms)[39m
+
+
+Started 2015-11-18T10:06:58.974Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(4ms)[39m
+Completed 500 [32m(20ms)[39m
+
+
+Started 2015-11-18T10:07:21.408Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(4ms)[39m
+Completed 500 [32m(18ms)[39m
+
+
+Started 2015-11-18T10:07:49.801Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(4ms)[39m
+Completed 500 [32m(20ms)[39m
+
+
+Started 2015-11-18T10:07:50.973Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(3ms)[39m
+Completed 500 [32m(15ms)[39m
+
+
+Started 2015-11-18T10:07:51.375Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(3ms)[39m
+Completed 500 [32m(15ms)[39m
+
+
+Started 2015-11-18T10:08:22.135Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(31ms)[39m
+
+
+Started 2015-11-18T10:09:10.833Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T10:09:24.401Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-18T10:09:40.956Z GET / ::1
+  Render view index [32m(10ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-18T10:09:42.658Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T10:09:48.426Z POST /user/follow ::1
+Completed 200 [32m(8ms)[39m
+
+
+Started 2015-11-18T10:09:50.950Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(12ms)[39m
+
+
+Started 2015-11-18T10:12:31.650Z GET /user/33333 ::1
+  Render view user/index [32m(6ms)[39m
+Completed 500 [32m(20ms)[39m
+
+
+Started 2015-11-18T10:12:32.195Z GET /user/33333 ::1
+  Render view user/index [32m(6ms)[39m
+Completed 500 [32m(23ms)[39m
+
+
+Started 2015-11-18T10:12:36.528Z GET /user/33333 ::1
+  Render view user/index [32m(5ms)[39m
+Completed 500 [32m(17ms)[39m
+
+
+Started 2015-11-18T10:12:54.098Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(14ms)[39m
+Completed 200 [32m(28ms)[39m
+
+
+Started 2015-11-18T10:12:57.151Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T10:13:01.198Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(21ms)[39m
+Completed 200 [32m(36ms)[39m
+
+
+Started 2015-11-18T10:13:05.894Z GET /topic/564460ec5f84f4941d508d70 ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-18T10:13:12.334Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(14ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-18T10:16:04.521Z GET / ::1
+  Render view index [32m(8ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-18T10:17:58.077Z GET / ::1
+  Render view index [32m(7ms)[39m
+Completed 304 [32m(24ms)[39m
+
+
+Started 2015-11-18T10:18:28.835Z GET / ::1
+  Render view index [32m(9ms)[39m
+Completed 304 [32m(21ms)[39m
+
+
+Started 2015-11-18T10:19:55.883Z GET / ::1
+  Render view index [32m(23ms)[39m
+Completed 304 [32m(47ms)[39m
+
+
+Started 2015-11-18T10:20:20.209Z GET / ::1
+  Render view index [32m(4ms)[39m
+Completed 304 [32m(17ms)[39m
+
+
+Started 2015-11-18T10:20:21.134Z GET / ::1
+  Render view index [32m(6ms)[39m
+Completed 304 [32m(18ms)[39m
+
+
+Started 2015-11-18T10:21:08.153Z GET / ::1
+  Render view index [32m(4ms)[39m
+Completed 304 [32m(19ms)[39m
+
+
+Started 2015-11-18T10:21:51.734Z GET / ::1
+  Render view index [32m(5ms)[39m
+Completed 304 [32m(13ms)[39m
+
+
+Started 2015-11-18T10:21:52.676Z GET / ::1
+  Render view index [32m(4ms)[39m
+Completed 304 [32m(13ms)[39m
+
+
+Started 2015-11-18T10:21:53.308Z GET / ::1
+  Render view index [32m(4ms)[39m
+Completed 304 [32m(20ms)[39m
+
+
+Started 2015-11-18T10:22:31.666Z GET / ::1
+  Render view index [32m(4ms)[39m
+Completed 304 [32m(18ms)[39m
+
+
+Started 2015-11-18T10:22:32.869Z GET / ::1
+  Render view index [32m(7ms)[39m
+Completed 304 [32m(18ms)[39m
+
+
+Started 2015-11-18T10:22:33.229Z GET / ::1
+  Render view index [32m(5ms)[39m
+Completed 304 [32m(15ms)[39m
+
+
+Started 2015-11-18T10:23:11.671Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-18T10:23:44.876Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T10:24:10.689Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T10:24:11.797Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T10:24:29.962Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T10:24:31.105Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T10:24:43.248Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T10:24:44.225Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-18T10:24:44.627Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T10:24:44.935Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T10:25:51.840Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T10:25:52.926Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(15ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T10:25:53.315Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T10:26:17.596Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-18T10:26:18.504Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-18T10:27:32.553Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-18T10:27:33.909Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T10:27:39.696Z GET / ::1
+  Render view index [32m(4ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T10:27:43.444Z GET / ::1
+  Render view index [32m(4ms)[39m
+Completed 304 [32m(11ms)[39m
+
+
+Started 2015-11-18T10:27:56.619Z GET / ::1
+  Render view index [32m(3ms)[39m
+Completed 304 [32m(16ms)[39m
+
+
+Started 2015-11-18T10:28:09.496Z GET /?tab=daily ::1
+  Render view index [32m(3ms)[39m
+Completed 200 [32m(8ms)[39m
+
+
+Started 2015-11-18T10:28:10.775Z GET /?tab=oscar ::1
+  Render view index [32m(4ms)[39m
+Completed 200 [32m(12ms)[39m
+
+
+Started 2015-11-18T10:28:12.559Z GET /?tab=daily ::1
+  Render view index [32m(4ms)[39m
+Completed 304 [32m(8ms)[39m
+
+
+Started 2015-11-18T10:28:13.457Z GET /?tab=all ::1
+  Render view index [32m(6ms)[39m
+Completed 200 [32m(15ms)[39m

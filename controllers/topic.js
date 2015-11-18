@@ -36,7 +36,7 @@ exports.index = function (req, res, next) {
   }
 
   var topic_id = req.params.tid;
-  var user_id = req.session.user._id;
+  var user_id = req.session.user?req.session.user._id:'';
 
   if (topic_id.length !== 24) {
     return res.render404('此话题不存在或已被删除。');
@@ -66,7 +66,7 @@ exports.index = function (req, res, next) {
 
     topic.author  = author;
     topic.replies = replies;
-    topic.relation_id = relation && relation._id || null;
+    topic.relation_id = relation? relation._id: '';
 
     // 点赞数排名第三的回答，它的点赞数就是阈值
     topic.reply_up_threshold = (function () {

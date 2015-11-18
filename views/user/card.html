@@ -12,13 +12,17 @@
         获得了<%= topic.collect_count %>个喜欢
       </div>
     </div>
-    <% if (current_user && current_user.email !== user.email) { %>
-      <% if(topic.relation_id){ %>
-        <a href="" action="un-follow" class="follow-btn">取消关注</a>
-      <% }else{ %>
-        <a href="" action="follow" class="follow-btn"><i class="fa fa-plus"></i>加关注</a>
+    <% if (current_user) { %>
+      <% if (String(current_user._id) !== String(user._id)) { %>
+        <% if(topic.relation_id){ %>
+          <a href="" action="un-follow" class="follow-btn">取消关注</a>
+        <% }else{ %>
+          <a href="" action="follow" class="follow-btn"><i class="fa fa-plus"></i>加关注</a>
+        <% } %>
       <% } %>
-    <% } %>
+    <% } else {%>
+      <a href="/signin" action="follow" class="follow-btn"><i class="fa fa-plus"></i>加关注</a>
+    <% }%>
    <!--  <div class="space clearfix"></div>
     <span class="signature">
         “
