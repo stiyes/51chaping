@@ -3,6 +3,7 @@ var models     = require('../models');
 var Topic      = models.Topic;
 var User       = require('./user');
 var Reply      = require('./reply');
+var Relation   = require('./relation');
 var tools      = require('../common/tools');
 var at         = require('../common/at');
 var _          = require('lodash');
@@ -124,12 +125,12 @@ exports.getLimit5w = function (callback) {
  * @param {String} id 主题ID
  * @param {Function} callback 回调函数
  */
-exports.getFullTopic = function (id, callback) {
+exports.getFullTopic = function (id, user_id, callback) {
   var proxy = new EventProxy();
-  var events = ['topic', 'author', 'replies'];
+  var events = ['topic', 'author', 'replies','relation'];
   proxy
-    .assign(events, function (topic, author, replies) {
-      callback(null, '', topic, author, replies);
+    .assign(events, function (topic, author, replies,relation) {
+      callback(null, '', topic, author, replies,relation);
     })
     .fail(callback);
 
@@ -152,6 +153,13 @@ exports.getFullTopic = function (id, callback) {
     }));
 
     Reply.getRepliesByTopicId(topic._id, proxy.done('replies'));
+
+    Relation.getRelation(user_id,topic.author_id,proxy.done(function (relation) {
+
+      proxy.emit('relation', relation);
+    }));
+
+
   }));
 };
 

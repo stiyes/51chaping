@@ -11,6 +11,7 @@ var validator = require('validator');
 var at           = require('../common/at');
 var User         = require('../proxy').User;
 var Topic        = require('../proxy').Topic;
+var Relation     = require('../proxy').Relation;
 var TopicCollect = require('../proxy').TopicCollect;
 var EventProxy   = require('eventproxy');
 var tools        = require('../common/tools');
@@ -35,6 +36,8 @@ exports.index = function (req, res, next) {
   }
 
   var topic_id = req.params.tid;
+  var user_id = req.session.user._id;
+
   if (topic_id.length !== 24) {
     return res.render404('此话题不存在或已被删除。');
   }
@@ -50,7 +53,9 @@ exports.index = function (req, res, next) {
 
   ep.fail(next);
 
-  Topic.getFullTopic(topic_id, ep.done(function (message, topic, author, replies) {
+  Topic.getFullTopic(topic_id,user_id, ep.done(function (message, topic, author, replies,relation) {
+
+
     if (message) {
       ep.unbind();
       return res.renderError(message);
@@ -61,6 +66,7 @@ exports.index = function (req, res, next) {
 
     topic.author  = author;
     topic.replies = replies;
+    topic.relation_id = relation && relation._id || null;
 
     // 点赞数排名第三的回答，它的点赞数就是阈值
     topic.reply_up_threshold = (function () {

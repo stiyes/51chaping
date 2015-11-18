@@ -9081,3 +9081,3110 @@ Completed 200 [32m(21ms)[39m
 Started 2015-11-17T04:22:39.899Z GET /topic/564059b5ab1096ee5766727d ::1
   Render view topic/index [32m(7ms)[39m
 Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-17T06:33:13.316Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-17T06:33:22.048Z GET / ::1
+  Render view index [32m(5ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T06:33:25.807Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(12ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-17T06:35:34.358Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-17T06:35:51.699Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T06:37:11.889Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-17T06:37:53.437Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-17T06:39:47.589Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-17T06:40:48.291Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-17T06:40:49.312Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T06:41:29.737Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-17T06:41:30.853Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-17T06:41:43.133Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-17T06:41:43.925Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T06:41:44.395Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T06:43:26.196Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T06:43:27.179Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-17T06:50:48.574Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T06:51:58.036Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-17T06:51:58.997Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-17T06:51:59.396Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-17T06:52:43.946Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(15ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-17T06:52:44.903Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T06:52:45.241Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(12ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-17T06:52:45.671Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-17T06:52:46.029Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(15ms)[39m
+Completed 200 [32m(30ms)[39m
+
+
+Started 2015-11-17T06:53:00.912Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(12ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-17T06:53:01.822Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(13ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-17T06:53:02.112Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(12ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-17T06:53:31.550Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(16ms)[39m
+Completed 200 [32m(29ms)[39m
+
+
+Started 2015-11-17T06:53:32.452Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(25ms)[39m
+Completed 200 [32m(38ms)[39m
+
+
+Started 2015-11-17T06:53:32.896Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-17T06:53:53.358Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T06:53:54.383Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T06:53:54.742Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-17T06:53:54.824Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-17T06:53:55.215Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T06:54:42.591Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-17T06:54:43.570Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-17T06:54:43.952Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(4ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-17T06:56:29.090Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T06:56:29.888Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T06:56:30.305Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-17T06:58:12.167Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 500 [32m(20ms)[39m
+
+
+Started 2015-11-17T06:58:54.435Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-17T06:59:11.317Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T06:59:12.495Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-17T06:59:12.845Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-17T07:01:22.865Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T07:01:24.236Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-17T07:01:24.658Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-17T07:01:24.717Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-17T07:01:25.076Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T07:01:26.230Z POST /user/undefined ::1
+
+
+Started 2015-11-17T07:01:26.248Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 404 [32m(23ms)[39m
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T07:01:42.703Z POST /user/undefined ::1
+Completed 404 [32m(4ms)[39m
+
+
+Started 2015-11-17T07:01:42.709Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T07:02:01.280Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-17T07:02:04.287Z POST /user/undefined ::1
+Completed 404 [32m(3ms)[39m
+
+
+Started 2015-11-17T07:05:42.711Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-17T07:05:46.871Z POST /user/undefined ::1
+Completed 404 [32m(3ms)[39m
+
+
+Started 2015-11-17T07:09:19.095Z GET / ::1
+  Render view index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-17T07:09:22.819Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T07:13:02.674Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T07:13:03.661Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-17T07:13:04.103Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T07:14:07.130Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-17T07:14:08.086Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-17T07:14:08.477Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-17T07:14:35.307Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-17T07:14:36.563Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T07:14:36.978Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T07:14:42.641Z POST /user/undefined ::1
+Completed 404 [32m(3ms)[39m
+
+
+Started 2015-11-17T07:14:44.004Z POST /user/undefined ::1
+Completed 404 [32m(3ms)[39m
+
+
+Started 2015-11-17T07:15:36.520Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-17T07:16:39.021Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-17T07:16:40.259Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T07:17:17.410Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-17T07:18:00.062Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:09:38.921Z GET /topic/564059b5ab1096ee5766727d ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:11:26.860Z GET /topic/564059b5ab1096ee5766727d ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:13:01.639Z GET / ::1
+
+
+Started 2015-11-17T09:13:07.186Z GET / ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:14:03.621Z GET / ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:14:41.091Z GET / ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:15:37.722Z GET / ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:17:01.759Z GET / ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:19:31.570Z GET / ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:20:28.768Z GET / ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:24:52.902Z GET / ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:27:20.155Z GET / ::1
+
+
+Started 2015-11-17T09:27:23.727Z GET / ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:27:45.684Z GET / ::1
+  Render view index [32m(32ms)[39m
+Completed 200 [32m(96ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:30:25.400Z GET / ::1
+Completed 500 [32m(31ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:31:28.558Z GET / ::1
+Completed 500 [32m(29ms)[39m
+
+
+Started 2015-11-17T09:31:32.449Z GET / ::1
+Completed 500 [32m(8ms)[39m
+
+
+Started 2015-11-17T09:31:33.556Z GET / ::1
+Completed 500 [32m(7ms)[39m
+
+
+Started 2015-11-17T09:31:33.933Z GET / ::1
+Completed 500 [32m(9ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:32:50.515Z GET / ::1
+Completed 500 [32m(29ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:34:17.311Z GET / ::1
+Completed 500 [32m(31ms)[39m
+
+
+Started 2015-11-17T09:34:19.657Z GET / ::1
+Completed 500 [32m(9ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:35:05.432Z GET / ::1
+Completed 500 [32m(31ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:36:05.035Z GET / ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:36:26.363Z GET / ::1
+Completed 500 [32m(29ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:38:12.071Z GET / ::1
+Completed 500 [32m(29ms)[39m
+
+
+Started 2015-11-17T09:38:14.070Z GET / ::1
+Completed 500 [32m(8ms)[39m
+
+
+Started 2015-11-17T09:38:14.519Z GET / ::1
+Completed 500 [32m(9ms)[39m
+
+
+Started 2015-11-17T09:38:14.802Z GET / ::1
+Completed 500 [32m(8ms)[39m
+
+
+Started 2015-11-17T09:38:14.952Z GET / ::1
+Completed 500 [32m(10ms)[39m
+
+
+Started 2015-11-17T09:38:15.165Z GET / ::1
+Completed 500 [32m(8ms)[39m
+
+
+Started 2015-11-17T09:38:15.404Z GET / ::1
+Completed 500 [32m(10ms)[39m
+
+
+Started 2015-11-17T09:38:15.640Z GET / ::1
+Completed 500 [32m(10ms)[39m
+
+
+Started 2015-11-17T09:38:15.695Z GET / ::1
+Completed 500 [32m(8ms)[39m
+
+
+Started 2015-11-17T09:38:16.084Z GET / ::1
+Completed 500 [32m(9ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:39:31.598Z GET / ::1
+  Render view index [32m(28ms)[39m
+Completed 200 [32m(97ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:46:15.725Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(46ms)[39m
+Completed 200 [32m(107ms)[39m
+
+
+Started 2015-11-17T09:46:55.417Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(13ms)[39m
+Completed 200 [32m(44ms)[39m
+
+
+Started 2015-11-17T09:47:07.849Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-17T09:47:09.074Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(12ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-17T09:47:09.522Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(13ms)[39m
+Completed 200 [32m(30ms)[39m
+
+
+Started 2015-11-17T09:47:14.144Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-17T09:47:28.357Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-17T09:47:52.013Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(22ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:50:22.031Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(34ms)[39m
+Completed 200 [32m(90ms)[39m
+
+
+Started 2015-11-17T09:50:24.331Z POST /user/follow ::1
+Completed 404 [32m(18ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:51:00.225Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(30ms)[39m
+Completed 200 [32m(73ms)[39m
+
+
+Started 2015-11-17T09:51:02.073Z POST /user/follow ::1
+Completed 500 [32m(24ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:51:41.848Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(30ms)[39m
+Completed 200 [32m(86ms)[39m
+
+
+Started 2015-11-17T09:51:47.067Z GET /user/follow?user_id=564317d1373abf9f0d998bbc&follow_id=5629ac7715587f6884d6cdab&action=follow ::1
+  Render view notify/notify [32m(11ms)[39m
+Completed 404 [32m(17ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:53:05.426Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(33ms)[39m
+Completed 200 [32m(89ms)[39m
+
+
+Started 2015-11-17T09:53:07.668Z GET /user/follow?user_id=564317d1373abf9f0d998bbc&follow_id=5629ac7715587f6884d6cdab&action=follow ::1
+  Render view notify/notify [32m(9ms)[39m
+Completed 404 [32m(15ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T09:54:10.968Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(31ms)[39m
+Completed 200 [32m(87ms)[39m
+
+
+Started 2015-11-17T09:54:14.115Z GET /user/follow?user_id=564317d1373abf9f0d998bbc&follow_id=5629ac7715587f6884d6cdab&action=follow ::1
+  Render view notify/notify [32m(9ms)[39m
+Completed 404 [32m(14ms)[39m
+
+
+Started 2015-11-17T09:55:13.274Z GET /user/follow ::1
+  Render view notify/notify [32m(3ms)[39m
+Completed 404 [32m(17ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:00:12.327Z GET /user/follow ::1
+  Render view notify/notify [32m(11ms)[39m
+Completed 404 [32m(45ms)[39m
+
+
+Started 2015-11-17T10:00:15.503Z GET /user/follow?user_id=564317d1373abf9f0d998bbc&follow_id=5629ac7715587f6884d6cdab&action=follow ::1
+  Render view notify/notify [32m(8ms)[39m
+Completed 404 [32m(16ms)[39m
+
+
+Started 2015-11-17T10:00:18.859Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(24ms)[39m
+Completed 200 [32m(53ms)[39m
+
+
+Started 2015-11-17T10:00:20.406Z POST /user/follow ::1
+Completed 500 [32m(27ms)[39m
+
+
+Started 2015-11-17T10:00:48.223Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-17T10:00:49.489Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-17T10:01:15.024Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-17T10:01:16.596Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-17T10:06:11.697Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-17T10:06:16.712Z POST /user/follow ::1
+Completed 500 [32m(9ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:06:44.295Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(35ms)[39m
+Completed 200 [32m(83ms)[39m
+
+
+Started 2015-11-17T10:06:49.928Z POST /user/follow ::1
+Completed 500 [32m(32ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:08:07.637Z POST /user/follow ::1
+Completed 500 [32m(64ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:08:31.354Z POST /user/follow ::1
+Completed 500 [32m(69ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:09:11.144Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(37ms)[39m
+Completed 200 [32m(94ms)[39m
+
+
+Started 2015-11-17T10:09:19.779Z POST /user/follow ::1
+Completed 500 [32m(32ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:09:42.482Z POST /user/follow ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:10:13.543Z POST /user/follow ::1
+Completed 500 [32m(51ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:11:33.549Z POST /user/follow ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:12:20.036Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(39ms)[39m
+Completed 200 [32m(97ms)[39m
+
+
+Started 2015-11-17T10:12:23.180Z GET /user/follow?user_id=564317d1373abf9f0d998bbc&follow_id=5629ac7715587f6884d6cdab&action=follow ::1
+  Render view notify/notify [32m(9ms)[39m
+Completed 404 [32m(17ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:12:51.649Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(34ms)[39m
+Completed 200 [32m(77ms)[39m
+
+
+Started 2015-11-17T10:14:21.161Z POST /user/follow ::1
+
+
+Started 2015-11-17T10:14:32.783Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(36ms)[39m
+
+
+Started 2015-11-17T10:14:42.209Z POST /user/follow ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:16:18.528Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(32ms)[39m
+Completed 200 [32m(86ms)[39m
+
+
+Started 2015-11-17T10:16:26.898Z POST /user/follow ::1
+Completed 200 [32m(45ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:17:10.382Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(32ms)[39m
+Completed 200 [32m(77ms)[39m
+
+
+Started 2015-11-17T10:17:13.674Z POST /user/follow ::1
+Completed 200 [32m(32ms)[39m
+
+
+Started 2015-11-17T10:18:12.569Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(33ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:25:42.781Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(36ms)[39m
+Completed 200 [32m(88ms)[39m
+
+
+Started 2015-11-17T10:25:48.390Z POST /user/follow ::1
+Completed 200 [32m(33ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:27:41.259Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(31ms)[39m
+Completed 200 [32m(89ms)[39m
+
+
+Started 2015-11-17T10:27:53.349Z POST /user/follow ::1
+Completed 200 [32m(29ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:32:28.729Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(31ms)[39m
+Completed 200 [32m(88ms)[39m
+
+
+Started 2015-11-17T10:32:31.115Z POST /user/follow ::1
+Completed 200 [32m(38ms)[39m
+
+
+Started 2015-11-17T10:32:42.938Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-17T10:32:44.386Z POST /user/follow ::1
+Completed 200 [32m(14ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:36:47.186Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(34ms)[39m
+Completed 200 [32m(91ms)[39m
+
+
+Started 2015-11-17T10:36:48.856Z POST /user/follow ::1
+Completed 200 [32m(45ms)[39m
+
+
+Started 2015-11-17T10:36:58.345Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-17T10:37:00.170Z POST /user/follow ::1
+Completed 500 [32m(18ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-17T10:38:42.761Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(32ms)[39m
+Completed 200 [32m(88ms)[39m
+
+
+Started 2015-11-17T10:38:44.677Z POST /user/follow ::1
+Completed 200 [32m(34ms)[39m
+
+
+Started 2015-11-17T10:38:47.412Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-17T10:38:49.158Z POST /user/follow ::1
+Completed 200 [32m(14ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T02:24:39.373Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(38ms)[39m
+Completed 200 [32m(98ms)[39m
+
+
+Started 2015-11-18T02:24:41.551Z POST /user/follow ::1
+Completed 200 [32m(39ms)[39m
+
+
+Started 2015-11-18T02:24:53.166Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T02:24:55.134Z POST /user/follow ::1
+Completed 500 [32m(16ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T03:20:44.019Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(39ms)[39m
+Completed 200 [32m(98ms)[39m
+
+
+Started 2015-11-18T03:20:59.158Z POST /user/follow ::1
+
+
+Started 2015-11-18T03:22:59.160Z POST /user/follow ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T03:30:10.639Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(31ms)[39m
+Completed 200 [32m(86ms)[39m
+
+
+Started 2015-11-18T03:30:16.664Z POST /user/follow ::1
+Completed 200 [32m(34ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T03:41:20.691Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(31ms)[39m
+Completed 200 [32m(89ms)[39m
+
+
+Started 2015-11-18T03:41:30.644Z POST /user/follow ::1
+Completed 200 [32m(33ms)[39m
+
+
+Started 2015-11-18T03:41:40.999Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-18T03:41:42.682Z POST /user/follow ::1
+Completed 200 [32m(12ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T03:43:01.309Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(31ms)[39m
+Completed 200 [32m(88ms)[39m
+
+
+Started 2015-11-18T03:43:08.313Z POST /user/follow ::1
+Completed 200 [32m(32ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T03:48:50.716Z POST /user/un_follow ::1
+Completed 404 [32m(33ms)[39m
+
+
+Started 2015-11-18T03:48:53.740Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(33ms)[39m
+Completed 200 [32m(72ms)[39m
+
+
+Started 2015-11-18T03:48:55.869Z POST /user/follow ::1
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T03:49:08.701Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T03:49:10.408Z POST /user/follow ::1
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-18T03:49:20.084Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T03:49:21.601Z POST /user/follow ::1
+Completed 200 [32m(10ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T04:01:15.866Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(29ms)[39m
+Completed 200 [32m(84ms)[39m
+
+
+Started 2015-11-18T04:01:17.667Z POST /user/follow ::1
+Completed 200 [32m(31ms)[39m
+
+
+Started 2015-11-18T04:01:27.212Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-18T04:01:28.966Z POST /user/follow ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T04:02:06.598Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(36ms)[39m
+Completed 200 [32m(87ms)[39m
+
+
+Started 2015-11-18T04:02:13.929Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(13ms)[39m
+Completed 200 [32m(25ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T04:03:06.736Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(34ms)[39m
+Completed 200 [32m(87ms)[39m
+
+
+Started 2015-11-18T04:03:15.724Z POST /user/follow ::1
+Completed 200 [32m(30ms)[39m
+
+
+Started 2015-11-18T04:03:32.342Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-18T04:03:34.021Z POST /user/follow ::1
+Completed 200 [32m(11ms)[39m
+
+
+Started 2015-11-18T04:05:32.260Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(4ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T04:05:34.048Z POST /user/follow ::1
+Completed 200 [32m(9ms)[39m
+
+
+Started 2015-11-18T04:05:35.291Z POST /user/follow ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T04:06:41.462Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(32ms)[39m
+Completed 200 [32m(86ms)[39m
+
+
+Started 2015-11-18T04:07:54.277Z POST /564461485f84f4941d508d71/reply ::1
+Completed 302 [32m(41ms)[39m
+
+
+Started 2015-11-18T04:07:54.319Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T04:08:01.459Z GET /reply/564bf99a1cae01c33ef96854/edit ::1
+  Render view reply/edit [32m(4ms)[39m
+Completed 200 [32m(12ms)[39m
+
+
+Started 2015-11-18T04:08:13.520Z GET / ::1
+  Render view index [32m(9ms)[39m
+Completed 200 [32m(34ms)[39m
+
+
+Started 2015-11-18T04:08:15.065Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(12ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T04:08:53.609Z GET /user/stiyes ::1
+  Render view user/index [32m(7ms)[39m
+Completed 500 [32m(30ms)[39m
+
+
+Started 2015-11-18T04:08:57.828Z GET /user/stiyes ::1
+  Render view user/index [32m(4ms)[39m
+Completed 500 [32m(16ms)[39m
+
+
+Started 2015-11-18T04:09:06.240Z POST /user/follow ::1
+Completed 200 [32m(10ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T04:10:02.844Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(38ms)[39m
+Completed 200 [32m(97ms)[39m
+
+
+Started 2015-11-18T04:10:04.799Z POST /user/follow ::1
+Completed 200 [32m(30ms)[39m
+
+
+Started 2015-11-18T04:10:06.814Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(12ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-18T04:10:31.349Z GET /topic/564460ec5f84f4941d508d70 ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T04:10:35.070Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T04:10:37.381Z POST /user/follow ::1
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T04:10:41.173Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(14ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T04:11:47.322Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(31ms)[39m
+Completed 200 [32m(84ms)[39m
+
+
+Started 2015-11-18T04:11:51.407Z POST /user/follow ::1
+Completed 200 [32m(36ms)[39m
+
+
+Started 2015-11-18T04:11:59.669Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-18T04:12:00.939Z POST /user/follow ::1
+Completed 200 [32m(13ms)[39m
+
+
+Started 2015-11-18T04:12:05.467Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(15ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T04:16:49.377Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(31ms)[39m
+Completed 200 [32m(83ms)[39m
+
+
+Started 2015-11-18T04:16:52.345Z POST /user/follow ::1
+Completed 200 [32m(36ms)[39m
+
+
+Started 2015-11-18T04:16:54.233Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T04:17:33.098Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-18T04:17:34.068Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-18T04:17:45.471Z POST /user/follow ::1
+Completed 200 [32m(12ms)[39m
+
+
+Started 2015-11-18T04:18:09.800Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T04:18:10.739Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-18T04:18:11.457Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-18T04:18:26.428Z GET / ::1
+  Render view index [32m(7ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T04:18:27.826Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(21ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T04:20:40.093Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(30ms)[39m
+Completed 200 [32m(84ms)[39m
+
+
+Started 2015-11-18T04:20:47.226Z GET / ::1
+  Render view index [32m(9ms)[39m
+Completed 200 [32m(37ms)[39m
+
+
+Started 2015-11-18T04:20:48.889Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(13ms)[39m
+Completed 200 [32m(31ms)[39m
+
+
+Started 2015-11-18T04:21:52.098Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(28ms)[39m
+
+
+Started 2015-11-18T04:21:57.407Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T04:22:26.815Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T04:22:29.242Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T04:22:40.447Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T04:23:27.693Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T04:23:44.322Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-18T04:23:51.769Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T04:24:44.105Z POST /signout ::1
+Completed 302 [32m(18ms)[39m
+
+
+Started 2015-11-18T04:24:44.125Z GET / ::1
+  Render view index [32m(6ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T04:24:47.330Z GET /signin ::1
+  Render view sign/signin [32m(5ms)[39m
+Completed 200 [32m(7ms)[39m
+
+
+Started 2015-11-18T04:24:53.702Z POST /signin ::1
+Completed 302 [32m(87ms)[39m
+
+
+Started 2015-11-18T04:24:53.792Z GET / ::1
+  Render view index [32m(6ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T04:25:10.558Z GET /user/stiyes ::1
+  Render view user/index [32m(7ms)[39m
+Completed 500 [32m(27ms)[39m
+
+
+Started 2015-11-18T04:25:15.086Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T04:25:23.207Z GET /user/stiyes ::1
+  Render view user/index [32m(4ms)[39m
+Completed 500 [32m(17ms)[39m
+
+
+Started 2015-11-18T04:25:28.335Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T04:25:32.255Z POST /user/follow ::1
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T04:25:33.759Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(12ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T04:34:13.567Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(30ms)[39m
+Completed 200 [32m(82ms)[39m
+
+
+Started 2015-11-18T04:34:14.748Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(17ms)[39m
+Completed 200 [32m(35ms)[39m
+
+
+Started 2015-11-18T04:34:32.541Z POST /signout ::1
+Completed 302 [32m(18ms)[39m
+
+
+Started 2015-11-18T04:34:32.562Z GET / ::1
+  Render view index [32m(7ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-18T04:34:36.708Z GET /topic/564460ec5f84f4941d508d70 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 500 [32m(22ms)[39m
+
+
+Started 2015-11-18T04:34:40.482Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(3ms)[39m
+Completed 500 [32m(12ms)[39m
+
+
+Started 2015-11-18T06:27:10.362Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 500 [32m(16ms)[39m
+
+
+Started 2015-11-18T06:27:13.881Z GET / ::1
+  Render view index [32m(7ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T06:27:15.637Z GET /signup ::1
+  Render view sign/signup [32m(5ms)[39m
+Completed 200 [32m(8ms)[39m
+
+
+Started 2015-11-18T06:27:17.498Z GET /signin ::1
+  Render view sign/signin [32m(4ms)[39m
+Completed 200 [32m(6ms)[39m
+
+
+Started 2015-11-18T06:27:24.430Z POST /signin ::1
+Completed 302 [32m(82ms)[39m
+
+
+Started 2015-11-18T06:27:24.515Z GET / ::1
+  Render view index [32m(6ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T06:27:26.203Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(14ms)[39m
+Completed 200 [32m(29ms)[39m
+
+
+Started 2015-11-18T06:27:32.169Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T06:27:35.128Z POST /user/follow ::1
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T06:27:37.702Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-18T06:27:41.152Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(4ms)[39m
+Completed 200 [32m(14ms)[39m
+
+
+Started 2015-11-18T06:29:17.263Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T06:29:18.382Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T06:29:20.350Z POST /user/follow ::1
+Completed 200 [32m(9ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T06:30:13.974Z POST /user/follow ::1
+Completed 200 [32m(66ms)[39m
+
+
+Started 2015-11-18T06:31:08.883Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(32ms)[39m
+Completed 200 [32m(60ms)[39m
+
+
+Started 2015-11-18T06:34:03.035Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(33ms)[39m
+
+
+Started 2015-11-18T06:34:08.490Z POST /user/follow ::1
+Completed 200 [32m(12ms)[39m
+
+
+Started 2015-11-18T06:34:10.619Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T06:34:49.794Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(27ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T06:35:07.183Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(33ms)[39m
+Completed 200 [32m(87ms)[39m
+
+
+Started 2015-11-18T06:35:09.159Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(17ms)[39m
+Completed 200 [32m(31ms)[39m
+
+
+Started 2015-11-18T06:35:09.693Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-18T06:35:12.304Z GET / ::1
+  Render view index [32m(8ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-18T06:35:13.468Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-18T06:35:17.753Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T06:35:39.551Z POST /user/follow ::1
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T06:35:51.969Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(18ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T06:42:41.728Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(44ms)[39m
+Completed 200 [32m(105ms)[39m
+
+
+Started 2015-11-18T06:42:50.321Z POST /user/follow ::1
+Completed 200 [32m(34ms)[39m
+
+
+Started 2015-11-18T06:43:06.362Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T06:43:13.121Z POST /user/follow ::1
+Completed 200 [32m(10ms)[39m
+
+
+Started 2015-11-18T06:43:19.443Z POST /signout ::1
+Completed 302 [32m(7ms)[39m
+
+
+Started 2015-11-18T06:43:19.453Z GET / ::1
+  Render view index [32m(8ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T06:43:22.319Z GET /signin ::1
+  Render view sign/signin [32m(4ms)[39m
+Completed 200 [32m(7ms)[39m
+
+
+Started 2015-11-18T06:43:27.702Z POST /signin ::1
+  Render view sign/signin [32m(2ms)[39m
+Completed 403 [32m(95ms)[39m
+
+
+Started 2015-11-18T06:43:34.709Z POST /signin ::1
+  Render view sign/signin [32m(2ms)[39m
+Completed 403 [32m(93ms)[39m
+
+
+Started 2015-11-18T06:43:39.543Z GET /signup ::1
+  Render view sign/signup [32m(2ms)[39m
+Completed 200 [32m(5ms)[39m
+
+
+Started 2015-11-18T06:43:59.206Z POST /signup ::1
+  Render view sign/signup [32m(2ms)[39m
+Completed 200 [32m(113ms)[39m
+
+
+Started 2015-11-18T06:45:25.186Z GET /signin ::1
+  Render view sign/signin [32m(1ms)[39m
+Completed 304 [32m(3ms)[39m
+
+
+Started 2015-11-18T06:45:36.459Z POST /signin ::1
+Completed 302 [32m(80ms)[39m
+
+
+Started 2015-11-18T06:45:36.542Z GET / ::1
+  Render view index [32m(7ms)[39m
+Completed 200 [32m(25ms)[39m
+
+
+Started 2015-11-18T06:45:39.355Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T06:45:51.929Z POST /user/follow ::1
+Completed 200 [32m(10ms)[39m
+
+
+Started 2015-11-18T06:48:04.780Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-18T06:48:24.322Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-18T06:48:25.418Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T06:48:25.808Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(19ms)[39m
+
+
+Started 2015-11-18T06:48:36.326Z POST /signout ::1
+Completed 302 [32m(3ms)[39m
+
+
+Started 2015-11-18T06:48:36.332Z GET / ::1
+  Render view index [32m(9ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T06:48:39.187Z GET /signin ::1
+  Render view sign/signin [32m(1ms)[39m
+Completed 200 [32m(4ms)[39m
+
+
+Started 2015-11-18T06:48:45.468Z POST /signin ::1
+Completed 302 [32m(83ms)[39m
+
+
+Started 2015-11-18T06:48:45.554Z GET / ::1
+  Render view index [32m(5ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T06:48:47.437Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-18T06:48:50.670Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T06:48:57.257Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(15ms)[39m
+Completed 200 [32m(30ms)[39m
+
+
+Started 2015-11-18T06:48:58.449Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T06:48:59.102Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-18T06:48:59.518Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T06:49:11.046Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 500 [32m(23ms)[39m
+
+
+Started 2015-11-18T06:49:28.902Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-18T06:49:30.415Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T06:49:30.798Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(24ms)[39m
+
+
+Started 2015-11-18T06:49:31.632Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T06:49:32.033Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T06:49:39.365Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(20ms)[39m
+
+
+Started 2015-11-18T06:49:52.805Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T06:49:53.821Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-18T06:49:54.168Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T06:50:50.249Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(15ms)[39m
+Completed 200 [32m(29ms)[39m
+
+
+Started 2015-11-18T06:50:51.432Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(14ms)[39m
+Completed 200 [32m(28ms)[39m
+
+
+Started 2015-11-18T06:51:18.168Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(13ms)[39m
+Completed 200 [32m(31ms)[39m
+
+
+Started 2015-11-18T06:51:29.705Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-18T06:51:34.024Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(12ms)[39m
+Completed 500 [32m(31ms)[39m
+
+
+Started 2015-11-18T06:51:54.161Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(15ms)[39m
+Completed 200 [32m(33ms)[39m
+
+
+Started 2015-11-18T06:52:02.281Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(16ms)[39m
+Completed 200 [32m(34ms)[39m
+
+
+Started 2015-11-18T06:52:03.321Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-18T06:52:03.675Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(22ms)[39m
+Completed 200 [32m(45ms)[39m
+
+
+Started 2015-11-18T06:53:28.504Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(20ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T06:55:01.392Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(22ms)[39m
+
+
+Started 2015-11-18T06:55:03.777Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(10ms)[39m
+
+
+Started 2015-11-18T06:55:18.101Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(11ms)[39m
+
+
+Started 2015-11-18T06:55:23.088Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(16ms)[39m
+
+
+Started 2015-11-18T06:55:49.975Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(36ms)[39m
+Completed 200 [32m(89ms)[39m
+
+
+Started 2015-11-18T06:55:51.579Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(34ms)[39m
+
+
+Started 2015-11-18T06:55:51.926Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(15ms)[39m
+Completed 200 [32m(31ms)[39m
+
+
+Started 2015-11-18T06:58:30.605Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(11ms)[39m
+
+
+Started 2015-11-18T06:58:41.147Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(11ms)[39m
+
+
+Started 2015-11-18T06:58:44.105Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(8ms)[39m
+
+
+Started 2015-11-18T06:58:45.944Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(9ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T06:59:24.481Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(39ms)[39m
+Completed 200 [32m(107ms)[39m
+
+
+Started 2015-11-18T07:16:58.586Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(14ms)[39m
+Completed 200 [32m(44ms)[39m
+
+
+Started 2015-11-18T07:21:06.789Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(10ms)[39m
+Completed 200 [32m(32ms)[39m
+
+
+Started 2015-11-18T07:21:08.301Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-18T07:21:08.881Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(16ms)[39m
+Completed 200 [32m(30ms)[39m
+
+
+Started 2015-11-18T07:21:14.570Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-18T07:21:16.142Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T07:21:36.234Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(14ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-18T07:23:57.321Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(27ms)[39m
+
+
+Started 2015-11-18T07:23:58.552Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(8ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T07:23:59.007Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(21ms)[39m
+
+
+Started 2015-11-18T07:24:01.642Z GET / ::1
+  Render view index [32m(8ms)[39m
+Completed 200 [32m(28ms)[39m
+
+
+Started 2015-11-18T07:24:02.843Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(7ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T07:24:16.043Z POST /signout ::1
+Completed 302 [32m(22ms)[39m
+
+
+Started 2015-11-18T07:24:16.068Z GET / ::1
+  Render view index [32m(7ms)[39m
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-18T07:24:17.179Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T07:24:27.396Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(16ms)[39m
+
+
+Started 2015-11-18T07:24:29.786Z GET /signin ::1
+  Render view sign/signin [32m(6ms)[39m
+Completed 200 [32m(6ms)[39m
+
+
+Started 2015-11-18T07:24:36.793Z POST /signin ::1
+Completed 302 [32m(84ms)[39m
+
+
+Started 2015-11-18T07:24:36.880Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(5ms)[39m
+Completed 200 [32m(13ms)[39m
+
+
+Started 2015-11-18T07:24:40.426Z POST /user/follow ::1
+Completed 200 [32m(17ms)[39m
+
+
+Started 2015-11-18T07:24:44.288Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(6ms)[39m
+Completed 200 [32m(14ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T07:43:03.185Z GET /user/33333 ::1
+  Render view user/index [32m(13ms)[39m
+Completed 500 [32m(69ms)[39m
+
+
+Started 2015-11-18T07:43:16.944Z GET /topic/564461485f84f4941d508d71 ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T07:43:49.558Z GET /topic/564461485f84f4941d508d71 ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T07:44:08.435Z GET /topic/564461485f84f4941d508d71 ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T07:46:01.573Z GET /topic/564461485f84f4941d508d71 ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T07:48:10.129Z GET /topic/564461485f84f4941d508d71 ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T07:53:10.175Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(35ms)[39m
+Completed 200 [32m(88ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:00:13.600Z GET /topic/564461485f84f4941d508d71 ::1
+Completed 500 [32m(48ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:01:07.155Z GET /topic/564461485f84f4941d508d71 ::1
+Completed 500 [32m(49ms)[39m
+
+
+Started 2015-11-18T08:01:08.259Z GET /topic/564461485f84f4941d508d71 ::1
+Completed 500 [32m(14ms)[39m
+
+
+Started 2015-11-18T08:01:08.719Z GET /topic/564461485f84f4941d508d71 ::1
+Completed 500 [32m(17ms)[39m
+
+
+Started 2015-11-18T08:01:08.770Z GET /topic/564461485f84f4941d508d71 ::1
+Completed 500 [32m(20ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:01:44.889Z GET /topic/564461485f84f4941d508d71 ::1
+Completed 500 [32m(48ms)[39m
+
+
+Started 2015-11-18T08:02:03.754Z GET /signin ::1
+  Render view sign/signin [32m(13ms)[39m
+Completed 500 [32m(22ms)[39m
+
+
+Started 2015-11-18T08:02:08.754Z GET / ::1
+  Render view index [32m(18ms)[39m
+Completed 200 [32m(50ms)[39m
+
+
+Started 2015-11-18T08:02:10.381Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(13ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:02:53.800Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(51ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:04:00.504Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(50ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:04:26.870Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(52ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:04:54.644Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(49ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:06:52.734Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(39ms)[39m
+Completed 200 [32m(105ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:07:20.953Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(52ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:08:23.364Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(48ms)[39m
+
+
+Started 2015-11-18T08:08:24.681Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(16ms)[39m
+
+
+Started 2015-11-18T08:08:25.242Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(15ms)[39m
+
+
+Started 2015-11-18T08:08:25.656Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(13ms)[39m
+
+
+Started 2015-11-18T08:08:25.731Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(16ms)[39m
+
+
+Started 2015-11-18T08:08:26.478Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(14ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:09:08.518Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(53ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:10:13.466Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(49ms)[39m
+
+
+Started 2015-11-18T08:10:14.551Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(17ms)[39m
+
+
+Started 2015-11-18T08:10:14.948Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(12ms)[39m
+NodeClub listening on port 3000
+God bless love....
+
+You can debug your app with http://localhost:3000
+
+
+Started 2015-11-18T08:10:44.482Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(49ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:12:05.813Z GET /topic/564059b5ab1096ee5766727d ::1
+
+
+Started 2015-11-18T08:12:07.601Z GET /topic/564059b5ab1096ee5766727d ::1
+
+
+Started 2015-11-18T08:12:08.052Z GET /topic/564059b5ab1096ee5766727d ::1
+
+
+Started 2015-11-18T08:12:08.264Z GET /topic/564059b5ab1096ee5766727d ::1
+
+
+Started 2015-11-18T08:12:08.718Z GET /topic/564059b5ab1096ee5766727d ::1
+
+
+Started 2015-11-18T08:12:08.886Z GET /topic/564059b5ab1096ee5766727d ::1
+
+
+Started 2015-11-18T08:12:09.095Z GET /topic/564059b5ab1096ee5766727d ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:12:21.869Z GET /topic/564059b5ab1096ee5766727d ::1
+Completed 500 [32m(48ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:14:54.305Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(23ms)[39m
+Completed 400 [32m(71ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:16:31.972Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(18ms)[39m
+Completed 400 [32m(68ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:19:03.369Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(22ms)[39m
+Completed 400 [32m(68ms)[39m
+
+
+Started 2015-11-18T08:19:19.646Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(6ms)[39m
+Completed 400 [32m(26ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:19:48.995Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(24ms)[39m
+Completed 400 [32m(72ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:20:59.125Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(201ms)[39m
+Completed 400 [32m(253ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:23:27.175Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(148ms)[39m
+Completed 400 [32m(199ms)[39m
+
+
+Started 2015-11-18T08:23:28.588Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(5ms)[39m
+Completed 400 [32m(22ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:23:43.342Z GET /topic/564059b5ab1096ee5766727d ::1
+
+
+Started 2015-11-18T08:23:44.969Z GET /topic/564059b5ab1096ee5766727d ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:24:26.347Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(44ms)[39m
+Completed 200 [32m(111ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:26:41.537Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(19ms)[39m
+Completed 400 [32m(73ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:28:42.292Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(31ms)[39m
+Completed 400 [32m(78ms)[39m
+
+
+Started 2015-11-18T08:28:43.414Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(5ms)[39m
+Completed 400 [32m(22ms)[39m
+
+
+Started 2015-11-18T08:28:43.817Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(3ms)[39m
+Completed 400 [32m(18ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:29:48.379Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(22ms)[39m
+Completed 400 [32m(69ms)[39m
+
+
+Started 2015-11-18T08:38:17.575Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(8ms)[39m
+Completed 400 [32m(25ms)[39m
+
+
+Started 2015-11-18T08:38:20.676Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(2ms)[39m
+Completed 400 [32m(15ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:42:22.440Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(31ms)[39m
+Completed 400 [32m(80ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:42:54.865Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(48ms)[39m
+Completed 200 [32m(114ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:43:39.547Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(38ms)[39m
+Completed 200 [32m(97ms)[39m
+
+
+Started 2015-11-18T08:44:22.953Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(12ms)[39m
+Completed 200 [32m(42ms)[39m
+
+
+Started 2015-11-18T08:46:07.076Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T08:46:14.320Z GET / ::1
+  Render view index [32m(10ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T08:46:15.664Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(11ms)[39m
+Completed 200 [32m(23ms)[39m
+
+
+Started 2015-11-18T08:46:22.318Z POST /signout ::1
+Completed 302 [32m(20ms)[39m
+
+
+Started 2015-11-18T08:46:22.340Z GET / ::1
+  Render view index [32m(5ms)[39m
+Completed 200 [32m(15ms)[39m
+
+
+Started 2015-11-18T08:46:25.632Z GET /signin ::1
+  Render view sign/signin [32m(5ms)[39m
+Completed 200 [32m(6ms)[39m
+
+
+Started 2015-11-18T08:47:23.921Z GET /signup ::1
+  Render view sign/signup [32m(5ms)[39m
+Completed 200 [32m(7ms)[39m
+
+
+Started 2015-11-18T08:47:24.612Z GET /signup ::1
+  Render view sign/signup [32m(1ms)[39m
+Completed 304 [32m(2ms)[39m
+
+
+Started 2015-11-18T08:47:41.911Z POST /signup ::1
+  Render view sign/signup [32m(1ms)[39m
+Completed 422 [32m(5ms)[39m
+
+
+Started 2015-11-18T08:47:59.630Z POST /signup ::1
+  Render view sign/signup [32m(2ms)[39m
+Completed 200 [32m(126ms)[39m
+
+
+Started 2015-11-18T08:48:28.170Z GET /signin ::1
+  Render view sign/signin [32m(1ms)[39m
+Completed 304 [32m(3ms)[39m
+
+
+Started 2015-11-18T08:48:34.062Z POST /signin ::1
+Completed 302 [32m(83ms)[39m
+
+
+Started 2015-11-18T08:48:34.148Z GET / ::1
+  Render view index [32m(5ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T08:48:35.741Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(8ms)[39m
+Completed 400 [32m(26ms)[39m
+
+
+Started 2015-11-18T08:48:48.934Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view notify/notify [32m(3ms)[39m
+Completed 400 [32m(13ms)[39m
+
+
+Started 2015-11-18T08:49:04.909Z GET / ::1
+  Render view index [32m(4ms)[39m
+Completed 304 [32m(15ms)[39m
+
+
+Started 2015-11-18T08:49:05.499Z GET / ::1
+  Render view index [32m(5ms)[39m
+Completed 304 [32m(15ms)[39m
+
+
+Started 2015-11-18T08:49:05.932Z GET / ::1
+  Render view index [32m(8ms)[39m
+Completed 304 [32m(24ms)[39m
+
+
+Started 2015-11-18T08:49:08.268Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view notify/notify [32m(2ms)[39m
+Completed 400 [32m(10ms)[39m
+
+
+Started 2015-11-18T08:50:11.058Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view notify/notify [32m(3ms)[39m
+Completed 400 [32m(10ms)[39m
+
+
+Started 2015-11-18T08:50:12.082Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view notify/notify [32m(4ms)[39m
+Completed 400 [32m(12ms)[39m
+
+
+Started 2015-11-18T08:50:12.485Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view notify/notify [32m(4ms)[39m
+Completed 400 [32m(12ms)[39m
+
+
+Started 2015-11-18T08:52:17.671Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view notify/notify [32m(8ms)[39m
+Completed 400 [32m(16ms)[39m
+
+
+Started 2015-11-18T08:52:39.368Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view notify/notify [32m(2ms)[39m
+Completed 400 [32m(9ms)[39m
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:53:41.454Z GET /topic/564461485f84f4941d508d71 ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:54:20.165Z GET /topic/564461485f84f4941d508d71 ::1
+NodeClub listening on port 3000
+God bless love....
+You can debug your app with http://localhost:3000
+
+
+
+Started 2015-11-18T08:54:43.151Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(32ms)[39m
+Completed 200 [32m(88ms)[39m
+
+
+Started 2015-11-18T08:54:53.201Z POST /user/follow ::1
+Completed 200 [32m(39ms)[39m
+
+
+Started 2015-11-18T08:54:55.322Z GET /topic/564461485f84f4941d508d71 ::1
+  Render view topic/index [32m(9ms)[39m
+Completed 200 [32m(22ms)[39m
+
+
+Started 2015-11-18T08:54:58.617Z GET / ::1
+  Render view index [32m(9ms)[39m
+Completed 200 [32m(26ms)[39m
+
+
+Started 2015-11-18T08:55:00.008Z GET /topic/564059b5ab1096ee5766727d ::1
+  Render view topic/index [32m(13ms)[39m
+Completed 200 [32m(32ms)[39m

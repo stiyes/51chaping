@@ -1,11 +1,13 @@
 var User         = require('../proxy').User;
 var Topic        = require('../proxy').Topic;
+var Relation     = require('../proxy').Relation;
 var Reply        = require('../proxy').Reply;
 var TopicCollect = require('../proxy').TopicCollect;
 var utility      = require('utility');
 var util         = require('util');
 var TopicModel   = require('../models').Topic;
 var ReplyModel   = require('../models').Reply;
+var RelationModel= require('../models').Relation;
 var tools        = require('../common/tools');
 var config       = require('../config');
 var EventProxy   = require('eventproxy');
@@ -370,3 +372,46 @@ exports.deleteAll = function (req, res, next) {
     ReplyModel.update({}, {$pull: {'ups': user._id}}, {multi: true}, ep.done('del_ups'));
   }));
 };
+
+
+exports.follow = function(req, res, next){
+  var source = 'test',
+    user_id = req.body.user_id,
+    follow_id = req.body.follow_id,
+    action = req.body.action;
+
+  var ep = EventProxy.create();
+  ep.fail(next);
+
+
+  User.getUserById(user_id, ep.done(function (user) {
+    if (!user) {
+      return next(new Error('user is not exists'));
+    }
+
+      Relation.newAndSave(user_id, follow_id, source, action, function (err, relation) {
+        if (err) {
+          return next(err);
+        }
+
+        var proxy = new EventProxy();
+
+        proxy.all('follow_success', function () {
+          return res.send({ status: 'success' });
+        });
+        proxy.fail(next);
+
+        console.log(relation);
+        User.getUserById(follow_id, proxy.done(function (follower) {
+          console.log(req.session.user);
+          follower.follower_count += ((action === 'follow')? 1 : -1);
+          follower.save();
+          proxy.emit('follow_success');
+        }));
+
+      });
+
+  }));
+};
+
+

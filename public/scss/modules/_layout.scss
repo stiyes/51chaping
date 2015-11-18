@@ -91,3 +91,28 @@
     }
   }
 }
+
+.nav-inner{
+  height: 30px;
+  padding: 10px;
+  box-shadow: 0 0 5px #ccc;
+  text-align: center;
+  a{
+    line-height: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 0 15px;
+    border-radius: 5px;
+    vertical-align: top;
+    &.logo{
+      margin: 0;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      border: none;
+    }
+  }
+
+}

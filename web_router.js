@@ -55,6 +55,7 @@ router.post('/search_pass', sign.updateSearchPass);  // 更新密码
 // user controller
 router.get('/user/:name', user.index); // 用户个人主页
 router.get('/setting', auth.userRequired, user.showSetting); // 用户个人设置页
+router.post('/user/follow', auth.userRequired, user.follow); // 用户关注
 router.post('/setting', auth.userRequired, user.setting); // 提交个人信息设置
 router.get('/stars', user.listStars); // 显示所有达人列表页
 router.get('/users/top100', user.top100);  // 显示积分前一百用户页
