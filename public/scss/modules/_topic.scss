@@ -106,3 +106,92 @@
     }
   }
 }
+
+
+.comment{
+  padding-bottom: 35px;
+  .title{
+    font-size: 14px;
+    color: $positive;
+    padding: 10px;
+    background-color: #333;
+    margin-bottom: 15px;
+    &.total-title{
+      background: #fff;
+    }
+  }
+  .editor-buttons{
+    .submit-btn{
+      display: block;
+      width: 100%;
+      font-size: 16px;
+      background-color: $positive;
+      color: #fff;
+      text-align: center;
+      line-height: 32px;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}
+.CodeMirror{
+  height: 200px !important;
+}
+
+.reply-item{
+  border-bottom: 1px solid #ccc;
+  background-color: #f9f9f9;
+  .user-action{
+    text-align: right;
+    padding: 5px 10px;
+    a{
+      padding: 0 2px;
+      font-size: 12px;
+    }
+  }
+  .author{
+    border: none;
+    padding: 10px 5px 5px;
+    background-color: #fff;
+  }
+  .user-info{
+    padding: 0;
+    margin-bottom: 5px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: left;
+    .user-avatar{
+      float: left;
+    }
+    .reply-author{
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 35px;
+      padding-left: 10px;
+    }
+    .reply-time{
+      float: right;
+      color: #ccc;
+
+    }
+  }
+  .reply2-area{
+    display: none;
+  }
+  .reply-content{
+    padding: 10px;
+  }
+}
+.favorite{
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  a{
+    color: #ff7b78;
+  }
+  .collect-topic{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 3px;
+  }
+}

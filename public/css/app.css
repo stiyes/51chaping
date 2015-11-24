@@ -1975,7 +1975,7 @@ html {
 body {
   margin: 0;
   line-height: 1;
-  font-family: 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif; }
+  font: 400 1em/1.5 PingFang SC, Lantinghei SC, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans; }
 
 /**
  * Remove default outlines.
@@ -3134,6 +3134,21 @@ table {
     .user-info .user-profile dd {
       margin-bottom: 8px; }
 
+.user-index {
+  text-align: center;
+  padding: 10px; }
+  .user-index .user-avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    display: block; }
+  .user-index ul {
+    border-bottom: 1px solid #444;
+    padding: 10px; }
+    .user-index ul li {
+      line-height: 24px;
+      color: #444; }
+
 .navbar-sider {
   width: 100%;
   height: 45px;
@@ -3312,6 +3327,75 @@ table {
     line-height: 27px;
     font-size: 16px;
     margin-bottom: 25px; }
+
+.comment {
+  padding-bottom: 35px; }
+  .comment .title {
+    font-size: 14px;
+    color: #00b160;
+    padding: 10px;
+    background-color: #333;
+    margin-bottom: 15px; }
+    .comment .title.total-title {
+      background: #fff; }
+  .comment .editor-buttons .submit-btn {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    background-color: #00b160;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    border: none;
+    border-radius: 5px; }
+
+.CodeMirror {
+  height: 200px !important; }
+
+.reply-item {
+  border-bottom: 1px solid #ccc;
+  background-color: #f9f9f9; }
+  .reply-item .user-action {
+    text-align: right;
+    padding: 5px 10px; }
+    .reply-item .user-action a {
+      padding: 0 2px;
+      font-size: 12px; }
+  .reply-item .author {
+    border: none;
+    padding: 10px 5px 5px;
+    background-color: #fff; }
+  .reply-item .user-info {
+    padding: 0;
+    margin-bottom: 5px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: left; }
+    .reply-item .user-info .user-avatar {
+      float: left; }
+    .reply-item .user-info .reply-author {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 35px;
+      padding-left: 10px; }
+    .reply-item .user-info .reply-time {
+      float: right;
+      color: #ccc; }
+  .reply-item .reply2-area {
+    display: none; }
+  .reply-item .reply-content {
+    padding: 10px; }
+
+.favorite {
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px; }
+  .favorite a {
+    color: #ff7b78; }
+  .favorite .collect-topic {
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 3px; }
 
 .cover-img {
   position: absolute;

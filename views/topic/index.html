@@ -79,28 +79,39 @@
 
     <%- markdown(topic.linkedContent) %>
   </div>
+<div class="favorite">
+  <% if(collect.length>0){ %>
+    <a href="javascript:void(0)" class="de-collect" id="collect_btn" action="de_collect">
+      <i class="fa fa-heart"></i>
+      <br/>
+      <span class="collect-topic"><%= topic.collect_count %></span>
+    </a>
+  <% }else{ %>
+  <a href="javascript:void(0)" id="collect_btn" action="collect">
+    <i class="fa fa-heart-o"></i>
+    <br/>
+    <span class="collect-topic"><%= topic.collect_count %></span>
+  </a>
+  <% } %>
+</div>
   <% if (topic.replies && topic.replies.length > 0) { %>
-  <div class='panel'>
-    <div class='header'>
-      <span class='col_fade'><%= topic.replies.length %> 回复</span>
-    </div>
+  <div class='comment'>
+    <h3 class="title total-title"><%= topic.replies.length %> 回复</h3>
     <%- partial('../reply/reply', topic.replies) %>
   </div>
   <% } %>
   <% if (current_user && typeof(topic) !== 'undefined') { %>
-  <div class='panel'>
-    <div class='header'>
-      <span class='col_fade'>添加回复</span>
-    </div>
+  <div class='comment'>
+    <h3 class="title">添加回复</h3>
     <div class='inner reply'>
-      <form id='reply_form' action='/<%= topic._id %>/reply' method='post'>
+      <form id='reply-form' action='/<%= topic._id %>/reply' method='post'>
 
-        <div class='markdown_editor in_editor'>
-          <div class='markdown_in_editor'>
+        <div class='markdown-editor in_editor'>
+          <div class='markdown-in-editor'>
             <textarea class='editor' name='r_content' rows='8'></textarea>
 
-            <div class='editor_buttons'>
-              <input class='span-primary submit_btn' type="submit" data-loading-text="回复中.." value="回复<%= topic.lock ? '(此主题已锁定)' : ''%>" <%= topic.lock ? 'disabled="disabled"' : ''%>>
+            <div class='editor-buttons'>
+              <input class='submit-btn' type="submit" data-loading-text="回复中.." value="回复<%= topic.lock ? '(此主题已锁定)' : ''%>" <%= topic.lock ? 'disabled="disabled"' : ''%>>
             </div>
           </div>
 
@@ -213,13 +224,14 @@
     // END 编辑器相关
 
     // 评论回复
-    $('#content').on('click', '.reply2_btn', function (event) {
+    $('.comment').on('click', '.reply2_btn', function (event) {
       var $btn = $(event.currentTarget);
-      var parent = $btn.closest('.reply_area');
+      var parent = $btn.parent().siblings('.reply2-area');
+      parent.show();
       var editorWrap = parent.find('.reply2_form');
       parent.find('.reply2_area').prepend(editorWrap);
       var textarea = editorWrap.find('textarea.editor');
-      var user = $btn.closest('.author_content').find('.reply_author').text().trim();
+      var user = $btn.parent().siblings('.author').find('.reply-author').text().trim();
       var editor = textarea.data('editor');
       editorWrap.show('fast', function () {
         var cm = editor.codemirror;
@@ -230,7 +242,7 @@
       });
     });
 
-    $('#content').on('click', '.reply2_at_btn', function (event) {
+    $('.comment').on('click', '.reply2_at_btn', function (event) {
       var $btn = $(event.currentTarget);
       var editorWrap = $btn.closest('.reply2_area').find('.reply2_form');
       $btn.closest('.reply2_item').after(editorWrap);
@@ -248,6 +260,15 @@
     // END 评论回复
 
     // 加入收藏
+    $('#collect_btn').hover(function(){
+      var $this = $(this),
+          $icon = $this.find('.fa');
+      if($icon.hasClass('fa-heart')){
+        $icon.removeClass('fa-heart').addClass('fa-heart-o');
+      }else{
+        $icon.removeClass('fa-heart-o').addClass('fa-heart');
+      }
+    });
     $('#collect_btn').click(function () {
       var $me = $(this);
       var action = $me.attr('action');
@@ -255,32 +276,33 @@
         topic_id: '<%= topic._id %>',
         _csrf: '<%= csrf %>'
       };
-      var $countSpan = $('.collect-topic-count');
+      var $countSpan = $('.collect-topic');
       $.post('/topic/' + action, data, function (data) {
         if (data.status === 'success') {
           if (action == 'collect') {
-            $me.text('取消收藏');
+            $me.find('.fa').removeClass('fa-heart-o').addClass('fa-heart');
+            $countSpan.text();
             $me.attr('action', 'de_collect');
           } else {
-            $me.text('加入收藏');
+            $me.find('.fa').removeClass('fa-heart').addClass('fa-heart-o');
             $me.attr('action', 'collect');
           }
-          $me.toggleClass('span-success');
+          window.location.reload();
         }
       }, 'json');
     });
     // END 加入收藏
 
     // 删除回复
-    $('#content').on('click', '.delete_reply_btn, .delete_reply2_btn', function (event) {
+    $('.comment').on('click', '.delete_reply_btn, .delete_reply2_btn', function (event) {
       var $me = $(event.currentTarget);
       if (confirm('确定要删除此回复吗？')) {
         var reply_id = null;
         if ($me.hasClass('delete_reply_btn')) {
-          reply_id = $me.closest('.reply_item').attr('reply_id');
+          reply_id = $me.closest('.reply-item').attr('reply_id');
         }
         if ($me.hasClass('delete_reply2_btn')) {
-          reply_id = $me.closest('.reply2_item').attr('reply_id');
+          reply_id = $me.closest('.reply-item').attr('reply_id');
         }
         var data = {
           reply_id: reply_id,
@@ -289,10 +311,10 @@
         $.post('/reply/' + reply_id + '/delete', data, function (data) {
           if (data.status === 'success') {
             if ($me.hasClass('delete_reply_btn')) {
-              $me.closest('.reply_item').remove();
+              $me.closest('.reply-item').remove();
             }
             if ($me.hasClass('delete_reply2_btn')) {
-              $me.closest('.reply2_item').remove();
+              $me.closest('.reply2-item').remove();
             }
           }
         }, 'json');
@@ -420,13 +442,14 @@
     }).done(function (data) {
       if (data.success) {
         $this.removeClass('invisible');
-        var currentCount = Number($this.next('.up-count').text().trim()) || 0;
+        var currentCount = Number($this.find('.up-count').text().trim()) || 0;
         if (data.action === 'up') {
-          $this.next('.up-count').text(currentCount + 1);
+          $this.find('.up-count').text(currentCount + 1);
           $this.addClass('uped');
         } else {
           if (data.action === 'down') {
-            $this.next('.up-count').text(currentCount - 1);
+            $this.find('.up-count').text((currentCount - 1)>0?currentCount - 1: '');
+            $this.addClass('invisible');
             $this.removeClass('uped');
           }
         }

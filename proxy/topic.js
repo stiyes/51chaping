@@ -155,6 +155,7 @@ exports.getFullTopic = function (id, user_id, callback) {
     Reply.getRepliesByTopicId(topic._id, proxy.done('replies'));
 
     Relation.getRelation(user_id,topic.author_id,proxy.done(function (relation) {
+      console.log(user_id);
 
       proxy.emit('relation', relation);
     }));

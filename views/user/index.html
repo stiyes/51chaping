@@ -1,34 +1,32 @@
-<%- partial('../sidebar') %>
+<%/*- partial('../sidebar') */%>
 
 <div id='content'>
   <div class='panel'>
-    <div class='header'>
-      <ul class='breadcrumb'>
-        <li><a href='/'>主页</a><span class='divider'>/</span></li>
-      </ul>
-    </div>
-    <div class='inner userinfo'>
-      <div class='user_big_avatar'>
-        <img src="<%= proxy(user.avatar_url) %>" class="user_avatar" title="<%= user.loginname %>"/>
-      </div>
-      <a class='dark'><%= user.loginname %></a>
+    <div class='user-index'>
+      <div class='profile'>
+        <div class='user-avatar'>
+          <img src="<%= proxy(user.avatar_url) %>" class="user_avatar" title="<%= user.loginname %>"/>
+        </div>
+        <a class='dark'><%= user.loginname %> <i class="fa fa-male"></i></a>
 
-      <div class='user_profile'>
-        <ul class='unstyled'>
-          <span class='big'><%= user.score %></span> 积分
-          <% if (user.collect_topic_count) {%>
+        <ul class='data'>
+          <li>注册时间 <%= user.create_at_ago() %></li>
+          <li>
+            <span class='big'><%= user.score %></span> 积分
+          </li>
           <li>
             <a class='dark' href="/user/<%= user.loginname %>/collections" target='_blank'>
               <span class='big collect-topic-count'><%= user.collect_topic_count %></span>话题收藏
             </a>
           </li>
-          <%}%>
-          <% if (user.url) { %>
+        </ul>
+        <ul class="contact">
+          <% /*if (user.url) {*/ %>
           <li>
             <i class="fa fa-lg fa-fw fa-home"></i>
-            <a class='dark' href="<%= user.url %>" target='_blank'><%= user.url %></a>
+            <a class='dark' href="<%= user.url %>" target='_blank'><%= user.url?user.url:'http://www.ngionic.com' %></a>
           </li>
-          <% } %>
+          <% /*}*/ %>
           <% if (user.location) { %>
           <li>
             <i class="fa fa-lg fa-fw fa-map-marker"></i>
@@ -50,8 +48,8 @@
           </li>
           <% } %>
         </ul>
+
       </div>
-      <p class='col_fade'>注册时间 <%= user.create_at_ago() %></p>
       <% if (current_user && current_user.is_admin) { %>
       <% if (!user.is_star) { %>
       <span class='span-common' id='set_star_btn' action='set_star'>设为达人</span>
@@ -81,13 +79,13 @@
     </div>
   </div>
 
-  <div class='panel'>
+  <div class='topic-list'>
     <div class='header'>
       <span class='col_fade'>最近创建的话题</span>
     </div>
     <% if (typeof(recent_topics) !== 'undefined' && recent_topics.length > 0) { %>
     <%- partial('../topic/abstract', { collection: recent_topics, as: 'topic' }) %>
-    <div class='cell more'>
+    <div class='more'>
       <a class='dark' href="/user/<%= user.loginname %>/topics">查看更多»</a>
     </div>
     <% } else { %>
@@ -97,13 +95,13 @@
     <% } %>
   </div>
 
-  <div class='panel'>
+  <div class='topic-list'>
     <div class='header'>
       <span class='col_fade'>最近参与的话题</span>
     </div>
     <% if (typeof(recent_replies) !== 'undefined' && recent_replies.length > 0) { %>
     <%- partial('../topic/abstract', { collection: recent_replies, as: 'topic' }) %>
-    <div class='cell more'>
+    <div class='more'>
       <a class='dark' href="/user/<%= user.loginname %>/replies">查看更多»</a>
     </div>
     <% } else { %>

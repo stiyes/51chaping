@@ -47,11 +47,18 @@ exports.index = function (req, res, next) {
       topic: topic,
       author_other_topics: other_topics,
       no_reply_topics: no_reply_topics,
-      is_uped: isUped
+      is_uped: isUped,
+      collect: topic_collect
     });
   });
 
   ep.fail(next);
+
+  if(user_id){
+    TopicCollect.getUserCollectsByTopicId(user_id,topic_id,ep.done(function (data) {
+      topic_collect = data;
+    }))
+  }
 
   Topic.getFullTopic(topic_id,user_id, ep.done(function (message, topic, author, replies,relation) {
 
