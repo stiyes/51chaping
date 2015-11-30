@@ -10,8 +10,12 @@
   ul{
     li{
       display: inline-block;
-      width: 40px;
-      text-align: center;
+      a{
+        padding: 0 10px;
+      }
+      i{
+        padding-right: 5px;
+      }
     }
   }
 }
@@ -68,7 +72,6 @@
 
 .header-fixed {
   width: 100%;
-  padding-left: 10px;
   border-bottom: 1px solid $gray;
   background-color: $light;
   z-index: 99;

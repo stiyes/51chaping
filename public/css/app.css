@@ -3157,9 +3157,11 @@ table {
   .navbar-sider .fa-mobile {
     font-size: 22px; }
   .navbar-sider ul li {
-    display: inline-block;
-    width: 40px;
-    text-align: center; }
+    display: inline-block; }
+    .navbar-sider ul li a {
+      padding: 0 10px; }
+    .navbar-sider ul li i {
+      padding-right: 5px; }
 
 .nav-main {
   float: left; }
@@ -3204,7 +3206,6 @@ table {
 
 .header-fixed {
   width: 100%;
-  padding-left: 10px;
   border-bottom: 1px solid #eee;
   background-color: #fff;
   z-index: 99; }
@@ -3291,10 +3292,28 @@ table {
     border: 1px solid #00b160;
     border-radius: 5px; }
 
+.meta {
+  background-color: #f4f4f4;
+  padding: 25px;
+  position: relative;
+  margin-bottom: 20px; }
+  .meta .fa {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #00b160;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    border-radius: 50%;
+    margin-left: -15px;
+    background-color: #fff;
+    text-align: center; }
+
 .topic-header {
   margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid #00b160;
   position: relative;
   overflow: hidden; }
   .topic-header h2 {
@@ -3315,11 +3334,18 @@ table {
     line-height: 30px;
     color: #fff; }
   .topic-header .manage {
-    padding-top: 5px; }
+    position: absolute;
+    right: 0;
+    top: 0; }
     .topic-header .manage a {
-      display: inline-block;
-      font-size: 10px;
-      margin-right: 5px; }
+      display: block;
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+      background-color: #00b160;
+      margin-bottom: 2px;
+      width: 50px;
+      color: #fff; }
 
 #content {
   padding: 15px 0 10px; }
@@ -3348,9 +3374,8 @@ table {
     line-height: 32px;
     border: none;
     border-radius: 5px; }
-
-.CodeMirror {
-  height: 200px !important; }
+  .comment .CodeMirror {
+    height: 200px !important; }
 
 .reply-item {
   border-bottom: 1px solid #ccc;
@@ -3436,25 +3461,27 @@ table {
 .topic-list {
   padding-left: 16px; }
   .topic-list .cell {
-    padding: 15px 0;
-    border-bottom: 1px dashed #eee; }
+    padding: 15px 55px 15px 0;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #eee;
+    position: relative; }
     .topic-list .cell header {
-      font-size: 25px;
+      font-size: 16px;
       font-weight: bold;
       color: #000;
       margin-bottom: 12px;
       position: relative;
-      padding-right: 40px;
       line-height: 35px; }
-      .topic-list .cell header .user-avatar {
-        width: 35px;
-        height: 35px;
-        float: right;
-        overflow: hidden;
-        border-radius: 50%;
-        position: absolute;
-        right: 0;
-        top: 0; }
+    .topic-list .cell .user-avatar {
+      width: 48px;
+      height: 48px;
+      background-color: #00b160;
+      overflow: hidden;
+      border-radius: 0;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -24px; }
     .topic-list .cell .article-cont {
       font-size: 14px;
       line-height: 21px;

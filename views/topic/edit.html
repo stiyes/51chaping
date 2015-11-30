@@ -1,4 +1,3 @@
-<%- partial('../editor_sidebar') %>
 
 <div id='content'>
   <div class='panel'>
@@ -49,6 +48,9 @@
             <span id="topic_create_warn"></span>
             <textarea autofocus class='span9' id='title' name='title' rows='1'
                       placeholder="标题字数 10 字以上"
+                ><%= typeof(title) !== 'undefined' && title || '' %></textarea>
+            <textarea autofocus class='span9' id='meta' name='meta' rows='3'
+                      placeholder="文章简介"
                     ><%= typeof(title) !== 'undefined' && title || '' %></textarea>
 
             <div class='markdown_editor in_editor'>
@@ -74,6 +76,7 @@
   </div>
 </div>
 
+<%- partial('../editor_sidebar') %>
 <!-- markdown editor -->
 <%- Loader('/public/editor.min.js')
 .js('/public/libs/editor/editor.js')

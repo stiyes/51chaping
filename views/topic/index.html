@@ -28,7 +28,7 @@
         <%}%>
       </div>
       <% if (current_user) { %>
-      <div class="manage">
+      <div class="manage" style="display: none;">
         <% if (current_user.is_admin) { %>
 
         <a href='/topic/<%= topic._id %>/top' data-method="post">
@@ -76,6 +76,10 @@
       </div>
       <% } %>
     </div>
+  <blockquote class="meta">
+    <i class="fa fa-bolt"></i>
+    <%= topic.meta %>
+  </blockquote>
 
     <%- markdown(topic.linkedContent) %>
   </div>
@@ -338,6 +342,15 @@
       return false;
     });
     // END 删除话题
+
+    // 文章管理
+    $('.topic-header').hover(function(){
+      var $this = $(this);
+      $this.find('.manage').fadeIn(500);
+    },function() {
+      var $this = $(this);
+      $this.find('.manage').fadeOut(500);
+    });
 
     // 用户 hover 在回复框时才显示点赞按钮
     $('.reply_area').hover(

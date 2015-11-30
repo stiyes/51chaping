@@ -56,11 +56,30 @@
     border-radius: 5px;
   }
 }
+.meta{
+  background-color: #f4f4f4;
+  padding: 25px;
+  position: relative;
+  margin-bottom: 20px;
+  .fa{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: $positive;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    border-radius: 50%;
+    margin-left: -15px;
+    background-color: #fff;
+    text-align: center;
+  }
+}
 
 .topic-header{
   margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid $positive;
   position: relative;
   overflow: hidden;
   h2{
@@ -86,11 +105,18 @@
   }
 
   .manage{
-    padding-top: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
     a{
-      display: inline-block;
-      font-size: 10px;
-      margin-right: 5px;
+      display: block;
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+      background-color: $positive;
+      margin-bottom: 2px;
+      width: 50px;
+      color: #fff;
     }
   }
 
@@ -133,9 +159,9 @@
       border-radius: 5px;
     }
   }
-}
-.CodeMirror{
-  height: 200px !important;
+  .CodeMirror{
+    height: 200px !important;
+  }
 }
 
 .reply-item{

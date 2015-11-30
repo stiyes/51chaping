@@ -124,6 +124,7 @@ exports.put = function (req, res, next) {
   var title   = validator.trim(req.body.title);
   var tab     = validator.trim(req.body.tab);
   var content = validator.trim(req.body.t_content);
+  var meta = validator.trim(req.body.meta);
 
   // 得到所有的 tab, e.g. ['ask', 'share', ..]
   var allTabs = config.tabs.map(function (tPair) {
@@ -153,7 +154,7 @@ exports.put = function (req, res, next) {
     });
   }
 
-  Topic.newAndSave(title, content, tab, req.session.user._id, function (err, topic) {
+  Topic.newAndSave(title, meta, content, tab, req.session.user._id, function (err, topic) {
     if (err) {
       return next(err);
     }

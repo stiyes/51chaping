@@ -47,26 +47,28 @@
 .topic-list {
   padding-left: 16px;
   .cell {
-    padding: 15px 0;
+    padding: 15px 55px 15px 0;
+    margin-bottom: 15px;
     border-bottom: 1px dashed $gray;
+    position: relative;
     header {
-      font-size: 25px;
+      font-size: 16px;
       font-weight: bold;
       color: $darken;
       margin-bottom: 12px;
       position: relative;
-      padding-right: 40px;
       line-height: 35px;
-      .user-avatar {
-        width: 35px;
-        height: 35px;
-        float: right;
-        overflow: hidden;
-        border-radius: 50%;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
+    }
+    .user-avatar {
+      width: 48px;
+      height: 48px;
+      background-color: $positive;
+      overflow: hidden;
+      border-radius: 0;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -24px;
     }
     .article-cont {
       font-size: 14px;

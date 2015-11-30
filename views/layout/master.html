@@ -63,54 +63,20 @@
   <meta content="<%= csrf %>" name="csrf-token">
 </head>
 <body>
-<!-- navbar -->
-<div class='navbar navbar-sider'>
-  <div class="nav-main">
-    <ul>
-      <li>
-        <a class='brand-logo' href="/">
-          <% if (config.site_logo) {%>
-           <img src="<%- staticFile(config.site_logo) %>" />
-          <%} else {%>
-            <%- config.short_name %>
-          <%}%>
-        </a>
-        </li>
-        <li class="tooltipstered"><a href="" title="专题列表"><i class="fa fa-th"></i></a></li>
-        <% if (current_user !== null){ %>
-        <li class="tooltipstered"><a href="" title="圈子"><i class="fa fa-users"></i></a></li>
-        <li class="tooltipstered"><a href="/topic/create" title="发布"><i class="fa fa-pencil"></i></a></li>
-        <li class="tooltipstered"><a href="/favourites" title="收藏"><i class="fa fa-star"></i></a></li>
-        <% }else{ %>
-        <li class="tooltipstered"><a href="/signup" title="注册"><i class="fa fa-sign-in"></i></a></li>
-        <li class="tooltipstered"><a href="/signin" title="登录"><i class="fa fa-user"></i></a></li>
-        <% } %>
-    </ul>
-  </div>
-  <div class="nav-user-bottom">
-    <ul>
-      <li class="tooltipstered"><a href="" title="下载App"><i class="fa fa-mobile"></i></a></li>
-      <% if (current_user !== null){ %>
-      <li><a href="/user/<%= current_user.name %>/notifications" title="消息"><i class="fa fa-bell"></i></a></li>
-      <li><a href="/signout" data-method="post" title="退出"><i class="fa fa-sign-out"></i></a></li>
-      <% } %>
-      <li><a href="/setting" title="设置"><i class="fa fa-cogs"></i></a></li>
-    </ul>
-  </div>
-</div>
-<!-- navbar user -->
 
-<!-- nav inner -->
-<div class="nav-inner">
-  <!-- <a href="">作者热评</a> -->
-  <a href="/" class="logo">
-    <img src="/public/img/logo.png" alt="">
-  </a>
-  <!-- <a href="">周边</a> -->
-</div>
+<%- partial('./_navbar.html') %>
+
+<!--&lt;!&ndash; nav inner &ndash;&gt;-->
+<!--<div class="nav-inner">-->
+  <!--&lt;!&ndash; <a href="">作者热评</a> &ndash;&gt;-->
+  <!--<a href="/" class="logo">-->
+    <!--<img src="/public/img/logo.png" alt="">-->
+  <!--</a>-->
+  <!--&lt;!&ndash; <a href="">周边</a> &ndash;&gt;-->
+<!--</div>-->
 
 <div class="row row-home" id='main'>
-  <div class="span-7 offset-2">
+  <div class="span-7 offset-1">
     <%- body %>
   </div>
 </div>
