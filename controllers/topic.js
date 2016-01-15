@@ -37,6 +37,7 @@ exports.index = function (req, res, next) {
 
   var topic_id = req.params.tid;
   var user_id = req.session.user?req.session.user._id:'';
+  var topic_collect = {};
 
   if (topic_id.length !== 24) {
     return res.render404('此话题不存在或已被删除。');

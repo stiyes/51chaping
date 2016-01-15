@@ -15,6 +15,7 @@ var user = require('./controllers/user');
 var message = require('./controllers/message');
 var topic = require('./controllers/topic');
 var special= require('./controllers/special');
+var featured= require('./controllers/featured');
 var reply = require('./controllers/reply');
 var rss = require('./controllers/rss');
 var staticController = require('./controllers/static');
@@ -72,6 +73,9 @@ router.get('/my/messages', auth.userRequired, message.index); // 用户个人的
 
 // special
 router.get('/special',special.index);
+
+// featured
+router.get('/featured',featured.index)
 
 // topic
 

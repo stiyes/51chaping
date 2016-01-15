@@ -263,6 +263,16 @@
     });
     // END 评论回复
 
+    // 显示回复
+    $('.reply-item').hover(function(){
+      var $this = $(this);
+      console.log($this.find('.user-action'))
+      $this.find('.user-action').fadeIn(100).addClass('flipInX');
+    },function(){
+      var $this = $(this);
+      $this.find('.user-action').removeClass('flipInX').fadeOut(100);
+    });
+
     // 加入收藏
     $('#collect_btn').hover(function(){
       var $this = $(this),
@@ -351,19 +361,6 @@
       var $this = $(this);
       $this.find('.manage').fadeOut(500);
     });
-
-    // 用户 hover 在回复框时才显示点赞按钮
-    $('.reply_area').hover(
-      function () {
-        $(this).find('.up_btn').removeClass('invisible');
-      },
-      function () {
-        var $this = $(this);
-        if ($this.find('.up-count').text().trim() === '') {
-          $this.find('.up_btn').addClass('invisible');
-        }
-      });
-    // END 用户 hover 在回复框时才显示点赞按钮
 
 
   });
@@ -454,15 +451,13 @@
       method: 'POST',
     }).done(function (data) {
       if (data.success) {
-        $this.removeClass('invisible');
         var currentCount = Number($this.find('.up-count').text().trim()) || 0;
         if (data.action === 'up') {
           $this.find('.up-count').text(currentCount + 1);
           $this.addClass('uped');
         } else {
           if (data.action === 'down') {
-            $this.find('.up-count').text((currentCount - 1)>0?currentCount - 1: '');
-            $this.addClass('invisible');
+            $this.find('.up-count').text((currentCount - 1)>0?currentCount - 1: '0');
             $this.removeClass('uped');
           }
         }

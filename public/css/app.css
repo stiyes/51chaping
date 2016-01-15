@@ -3160,6 +3160,8 @@ table {
     display: inline-block; }
     .navbar-sider ul li a {
       padding: 0 10px; }
+      .navbar-sider ul li a:active {
+        background-color: #026b3b; }
     .navbar-sider ul li i {
       padding-right: 5px; }
 
@@ -3195,6 +3197,7 @@ table {
     text-align: center;
     font-size: 14px;
     text-decoration: none; }
+    .navbar a.active,
     .navbar a:hover {
       color: #fff;
       background-color: #026b3b; }
@@ -3247,7 +3250,7 @@ table {
       border: none; }
 
 .author {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #f7f7f7;
   padding: 15px 0;
   font-size: 12px;
   position: relative;
@@ -3378,14 +3381,28 @@ table {
     height: 200px !important; }
 
 .reply-item {
-  border-bottom: 1px solid #ccc;
-  background-color: #f9f9f9; }
+  border-bottom: 1px solid #F3F3F3;
+  background-color: #f9f9f9;
+  position: relative; }
   .reply-item .user-action {
     text-align: right;
-    padding: 5px 10px; }
+    padding: 5px 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none; }
     .reply-item .user-action a {
       padding: 0 2px;
-      font-size: 12px; }
+      font-size: 16px;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      background-color: #00b160;
+      color: #fff;
+      border-radius: 50%; }
   .reply-item .author {
     border: none;
     padding: 10px 5px 5px;
@@ -3409,18 +3426,113 @@ table {
   .reply-item .reply2-area {
     display: none; }
   .reply-item .reply-content {
-    padding: 10px; }
+    position: relative;
+    padding: 10px 10px 10px 75px;
+    min-height: 60px; }
+  .reply-item .up-wrap {
+    width: 60px;
+    height: 80px;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #6CCCA0; }
+  .reply-item .up_btn {
+    color: #fff;
+    vertical-align: middle;
+    text-align: center; }
+    .reply-item .up_btn .fa {
+      padding-top: 10px;
+      font-size: 30px;
+      line-height: 30px; }
 
-.favorite {
-  text-align: center;
-  font-size: 24px;
-  line-height: 24px; }
-  .favorite a {
-    color: #ff7b78; }
-  .favorite .collect-topic {
+.favorite a {
+  color: #ff7b78;
+  display: block;
+  width: 36px;
+  margin: 0 auto;
+  text-align: center; }
+  .favorite a .fa {
+    font-size: 36px; }
+
+.favorite .collect-topic {
+  font-size: 14px; }
+
+.feature .card {
+  font-family: 'PingFang SC', 'Lantinghei SC', 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans;
+  background-color: #12b1a5;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 10px 0 0;
+  padding-bottom: 10px; }
+  .feature .card .avatar {
+    margin: -13px 0 5px; }
+    .feature .card .avatar img {
+      width: 20px;
+      border: 1px solid #fff;
+      border-radius: 50%; }
+  .feature .card .desc {
+    padding: 0 10px;
+    height: 90px; }
+  .feature .card .title {
     font-size: 14px;
-    display: inline-block;
-    margin-right: 3px; }
+    color: #fff; }
+  .feature .card .short {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    word-wrap: break-word; }
+  .feature .card .follow-btn {
+    border: none;
+    background-color: #fff;
+    margin: 10px 0 0 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    min-width: 80px; }
+
+#special {
+  margin: 10px 0;
+  padding: 25px 15px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center; }
+  #special:after {
+    content: ' ';
+    background-image: url(../images/features/1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover; }
+  #special a {
+    color: #00b160; }
+  #special .short {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: left; }
+  #special h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px; }
+    #special h1 span {
+      font-size: 12px;
+      line-height: 32px;
+      padding-left: 15px; }
+  #special .support {
+    margin-top: 15px;
+    overflow: hidden; }
+    #special .support .pos {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50% 0 50% 50%;
+      background-color: red;
+      line-height: 40px;
+      color: #fff;
+      font-size: 16px;
+      margin-right: 3px; }
+      #special .support .pos.neg {
+        background-color: #00b160;
+        margin: 0 0 0 5px;
+        border-radius: 0 50% 50% 50%; }
 
 .cover-img {
   position: absolute;

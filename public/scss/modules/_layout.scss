@@ -12,6 +12,9 @@
       display: inline-block;
       a{
         padding: 0 10px;
+        &:active{
+          background-color: #026b3b;
+        }
       }
       i{
         padding-right: 5px;
@@ -56,6 +59,7 @@
     text-align: center;
     font-size: 14px;
     text-decoration: none;
+    &.active,
     &:hover {
       color: $light;
       background-color: $calm;

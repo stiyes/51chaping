@@ -1,13 +1,10 @@
 .author {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #f7f7f7;
   padding: 15px 0;
   font-size: 12px;
   position: relative;
   overflow: hidden;
-
 }
-
-
 
 .user-card{
   padding-left: 50px;
@@ -165,14 +162,28 @@
 }
 
 .reply-item{
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #F3F3F3;
   background-color: #f9f9f9;
+  position: relative;
   .user-action{
     text-align: right;
     padding: 5px 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
     a{
       padding: 0 2px;
-      font-size: 12px;
+      font-size: 16px;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      background-color: $positive;
+      color: #fff;
+      border-radius: 50%;
     }
   }
   .author{
@@ -205,19 +216,43 @@
     display: none;
   }
   .reply-content{
-    padding: 10px;
+    position: relative;
+    padding: 10px 10px 10px 75px;
+    min-height: 60px;
+  }
+  .up-wrap{
+    width: 60px;
+    height: 80px;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #6CCCA0;
+  }
+  .up_btn{
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    .fa{
+      padding-top: 10px;
+      font-size: 30px;
+      line-height: 30px;
+    }
   }
 }
 .favorite{
-  text-align: center;
-  font-size: 24px;
-  line-height: 24px;
   a{
     color: #ff7b78;
+    display: block;
+    width: 36px;
+    margin: 0 auto;
+    text-align: center;
+    .fa{
+      font-size: 36px;
+    }
   }
   .collect-topic{
     font-size: 14px;
-    display: inline-block;
-    margin-right: 3px;
   }
 }

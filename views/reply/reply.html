@@ -13,7 +13,17 @@
         %></a>
     </div>
   </div>
-  <div class='reply-content from-<%= reply.author.loginname %>'>
+  <div class='reply-content clearfix from-<%= reply.author.loginname %>'>
+    <div class="up-wrap">
+      <a href="javascript:void(0)" class="up_btn">
+        <i class="fa
+        <%= (current_user && is_uped(current_user, reply)) ? 'fa-thumbs-up uped' : 'fa-thumbs-o-up' %>"
+           title="喜欢"></i><br/>
+      <span class="up-count">
+        <%= reply.ups && reply.ups.length ? reply.ups.length : '0' %>
+      </span>
+      </a>
+    </div>
     <%- markdown(reply.content) %>
   </div>
   <div class='reply2-area'>
@@ -39,15 +49,8 @@
     <% } %>
   </div>
 
-  <div class='user-action'>
-    <a href="javascript:void(0)" class="up_btn">
-      <i class="fa
-        <%= (current_user && is_uped(current_user, reply)) ? 'fa-thumbs-up uped' : 'fa-thumbs-o-up' %>"
-         title="喜欢"></i>
-      <span class="up-count">
-        <%= reply.ups && reply.ups.length ? reply.ups.length : '' %>
-      </span>
-    </a>
+  <div class='user-action animated'>
+
     <% if (current_user && current_user.is_admin ||
     (current_user && current_user._id.toString() == reply.author._id.toString())
     ) { %>
