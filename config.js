@@ -10,10 +10,10 @@ var config = {
 
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
-  short_name: '差', // 社区名字
-  name: '我要差评网', // 社区名字
-  description: '我要差评网-主要是生活吐槽的地方，一些不好的经历（工作、学习、购物等等）', // 社区的描述
-  keywords: '淘宝差评,京东差评,苏宁差评,O2O差评,生活bug,工作bug',
+  short_name: '', // 社区名字
+  name: '码农乌托邦', // 社区名字
+  description: '码农乌托邦社区，码农神技炫酷分享', // 社区的描述
+  keywords: '码农,分享,技术,生活,交友,社区,前端,全栈,PHP,IOS,Android',
 
   // 添加到 html head 中的信息
   site_headers: [
@@ -36,15 +36,15 @@ var config = {
   cnzz_tracker_id: '',
 
   // mongodb 配置
-  db: 'mongodb://127.0.0.1/51chaping',
-  db_name: '51chaping',
+  db: 'mongodb://127.0.0.1/condefun_top',
+  db_name: 'codefun_top',
 
   // redis 配置，默认是本地
   redis_host: '127.0.0.1',
   redis_port: 6379,
 
-  session_secret: 'ng_51xping', // 务必修改
-  auth_cookie_name: '51xping',
+  session_secret: 'codefun_5520', // 务必修改
+  auth_cookie_name: 'condefun_5520',
 
   // 程序运行的端口
   port: 3000,
@@ -54,20 +54,20 @@ var config = {
 
   // RSS配置
   rss: {
-    title: '我要差评网',
-    link: 'http://51xping.com',
+    title: '码农乌托邦',
+    link: 'http://codefun.top',
     language: 'zh-cn',
-    description: '我要差评网',
+    description: '码农乌托邦',
     //最多获取的RSS Item数量
     max_rss_items: 50
   },
 
   // 邮箱配置
   mail_opts: {
-    host: 'smtp.51xping.com',
+    host: 'smtp.codefun.top',
     port: 25,
     auth: {
-      user: 'sevice@51xping.com',
+      user: 'sevice@codefun.top',
       pass: 'sevice'
     }
   },
@@ -110,8 +110,9 @@ var config = {
 
   // 版块
   tabs: [
-    ['daily', '每日精选'],
-    ['oscar', '黑榜提名']
+    ['share', '分享'],
+    ['talk', '讨论'],
+    ['books', '书籍']
   ],
 
   // 极光推送
