@@ -80,10 +80,10 @@ exports.authUser = function (req, res, next) {
       return next();
     }
 
-    user.is_admin = '1qcn1';
     user = res.locals.current_user = req.session.user = new UserModel(user);
 
     if (config.admins.hasOwnProperty(user.loginname)) {
+      console.log('admin');
       user.is_admin = true;
     }
 

@@ -11,13 +11,6 @@
           <%}%>
         </a>
       </li>
-      <li><a href="/special" title="专题"><i class="fa fa-th"></i>专题</a></li>
-      <% if (current_user !== null){ %>
-      <li><a href="/featured" title="小组"><i class="fa fa-users"></i>小组</a></li>
-      <% }else{ %>
-      <li><a href="/signup" title="注册"><i class="fa fa-sign-in"></i>注册</a></li>
-      <li><a href="/signin" title="登录"><i class="fa fa-user"></i>登录</a></li>
-      <% } %>
     </ul>
   </div>
   <div class="nav-user-bottom">
@@ -28,8 +21,11 @@
       <!--<li><a href="/user/<%= current_user.name %>/notifications" title="消息"><i class="fa fa-bell"></i>消息</a></li>-->
       <li><a href="/user/<%= current_user.name %>" title="用户"><i class="fa fa-bell"></i>用户</a></li>
       <li><a href="/signout" data-method="post" title="退出"><i class="fa fa-sign-out"></i>退出</a></li>
-      <% } %>
       <li><a href="/setting" title="设置"><i class="fa fa-cogs"></i>设置</a></li>
+      <% }else{ %>
+      <li><a href="/signup" title="注册"><i class="fa fa-sign-in"></i>注册</a></li>
+      <li><a href="/signin" title="登录"><i class="fa fa-user"></i>登录</a></li>
+      <% } %>
     </ul>
   </div>
 </div>
