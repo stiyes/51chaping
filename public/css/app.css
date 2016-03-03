@@ -14,7 +14,7 @@
 
 .fa {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 14px / 1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -56,7 +56,7 @@
     left: -1.85714em; }
 
 .fa-border {
-  padding: 0.2em 0.25em 0.15em;
+  padding: .2em .25em .15em;
   border: solid 0.08em #eee;
   border-radius: .1em; }
 
@@ -1792,8 +1792,7 @@
 .row {
   width: 100%;
   *zoom: 1; }
-  .row:before,
-  .row:after {
+  .row:before, .row:after {
     display: table;
     content: "";
     line-height: 0; }
@@ -1975,7 +1974,7 @@ html {
 body {
   margin: 0;
   line-height: 1;
-  font: 400 1em/1.5 PingFang SC, Lantinghei SC, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans; }
+  font: 400 1em/1.5 PingFang SC,Lantinghei SC,Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans; }
 
 /**
  * Remove default outlines.
@@ -2143,7 +2142,8 @@ select {
  *  `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   /* 3 */
@@ -2233,8 +2233,7 @@ table {
   .button:hover {
     color: #444;
     text-decoration: none; }
-  .button.active,
-  .button.activated {
+  .button.active, .button.activated {
     border-color: #a2a2a2;
     background-color: #e5e5e5;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
@@ -2268,8 +2267,7 @@ table {
     .button.button-positive:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-positive.active,
-    .button.button-positive.activated {
+    .button.button-positive.active, .button.button-positive.activated {
       border-color: #007e44;
       background-color: #007e44;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
@@ -2285,8 +2283,7 @@ table {
       border-color: #00b160;
       background: transparent;
       color: #00b160; }
-      .button.button-positive.button-outline.active,
-      .button.button-positive.button-outline.activated {
+      .button.button-positive.button-outline.active, .button.button-positive.button-outline.activated {
         background-color: #00b160;
         box-shadow: none;
         color: #fff; }
@@ -2471,8 +2468,8 @@ table {
 
 #home-header > .chevron-right:before {
   display: block;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
   -webkit-transform: rotate3d(0, 0, 1, 90deg);
   transform: rotate3d(0, 0, 1, 90deg); }
 
@@ -2486,8 +2483,8 @@ table {
 
 #home-header ~ footer {
   margin-top: -240px;
-  -webkit-transition: margin 0s 0.2s;
-  transition: margin 0s 0.2s; }
+  -webkit-transition: margin 0s .2s;
+  transition: margin 0s .2s; }
 
 #home-header ~ footer > .container {
   position: absolute;
@@ -2504,8 +2501,8 @@ table {
   margin: 0;
   padding: 0;
   position: relative;
-  -webkit-transition: width 0.2s ease-in-out;
-  transition: width 0.2s ease-in-out;
+  -webkit-transition: width .2s ease-in-out;
+  transition: width .2s ease-in-out;
   width: 88px; }
 
 @media (max-width: 500px) {
@@ -2521,8 +2518,8 @@ table {
   left: 0; }
 
 #channel-text.out li {
-  -webkit-animation: alertOut 0.2s 0.2s linear forwards;
-  animation: alertOut 0.2s 0.2s linear forwards;
+  -webkit-animation: alertOut .2s .2s linear forwards;
+  animation: alertOut .2s .2s linear forwards;
   z-index: -1; }
 
 #channel-text.out li:first-child {
@@ -2535,204 +2532,204 @@ table {
   width: 88px; }
 
 #channel-text._0 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._0 > li:nth-child(1) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._1 {
   width: 84px; }
 
 #channel-text._1 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._1 > li:nth-child(2) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._2 {
   width: 72px; }
 
 #channel-text._2 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._2 > li:nth-child(3) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._3 {
   width: 78px; }
 
 #channel-text._3 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._3 > li:nth-child(4) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._4 {
   width: 94px; }
 
 #channel-text._4 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._4 > li:nth-child(5) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._5 {
   width: 140px; }
 
 #channel-text._5 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._5 > li:nth-child(6) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._6 {
   width: 78px; }
 
 #channel-text._6 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._6 > li:nth-child(7) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._7 {
   width: 126px; }
 
 #channel-text._7 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._7 > li:nth-child(8) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._8 {
   width: 98px; }
 
 #channel-text._8 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._8 > li:nth-child(9) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._9 {
   width: 136px; }
 
 #channel-text._9 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._9 > li:nth-child(10) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._10 {
   width: 148px; }
 
 #channel-text._10 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._10 > li:nth-child(11) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._11 {
   width: 134px; }
 
 #channel-text._11 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._11 > li:nth-child(12) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._12 {
   width: 224px; }
 
 #channel-text._12 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._12 > li:nth-child(13) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._13 {
   width: 86px; }
 
 #channel-text._13 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._13 > li:nth-child(14) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._14 {
   width: 100px; }
 
 #channel-text._14 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._14 > li:nth-child(15) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._15 {
   width: 172px; }
 
 #channel-text._15 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._15 > li:nth-child(16) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-text._16 {
   width: 92px; }
 
 #channel-text._16 > li {
-  -webkit-animation: alertOut 0.2s linear forwards;
-  animation: alertOut 0.2s linear forwards; }
+  -webkit-animation: alertOut .2s linear forwards;
+  animation: alertOut .2s linear forwards; }
 
 #channel-text._16 > li:nth-child(17) {
-  -webkit-animation: alertIn 0.2s linear forwards;
-  animation: alertIn 0.2s linear forwards;
+  -webkit-animation: alertIn .2s linear forwards;
+  animation: alertIn .2s linear forwards;
   visibility: visible; }
 
 #channel-images {
@@ -2912,8 +2909,8 @@ table {
     transform: translate3d(30px, -85px, 0); } }
 
 #home-header.inner #channel-images > li {
-  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s ease-in-out;
-  transition: opacity 0.2s, transform 0.2s ease-in-out; }
+  -webkit-transition: opacity .2s, -webkit-transform .2s ease-in-out;
+  transition: opacity .2s, transform .2s ease-in-out; }
 
 #home-header.inner #channel-images > li:nth-child(1) {
   -webkit-transform: translate3d(-195px, -170px, 0);
@@ -3029,8 +3026,8 @@ table {
 
 .inner #channel-images a:after {
   opacity: 1;
-  -webkit-transition: opacity 0.3s 0.1s ease-in-out;
-  transition: opacity 0.3s 0.1s ease-in-out; }
+  -webkit-transition: opacity .3s .1s ease-in-out;
+  transition: opacity .3s .1s ease-in-out; }
 
 @media (max-width: 700px) {
   #channel-images a:after {
@@ -3197,8 +3194,7 @@ table {
     text-align: center;
     font-size: 14px;
     text-decoration: none; }
-    .navbar a.active,
-    .navbar a:hover {
+    .navbar a.active, .navbar a:hover {
       color: #fff;
       background-color: #026b3b; }
   .navbar .brand-logo {
@@ -3220,8 +3216,7 @@ table {
     padding: 15px;
     color: #555;
     transition: all 0.3s; }
-    .header-fixed .nav-sub .item.current,
-    .header-fixed .nav-sub .item:hover {
+    .header-fixed .nav-sub .item.current, .header-fixed .nav-sub .item:hover {
       border-bottom: 1px solid #026b3b;
       color: #00b160;
       margin-bottom: -1px; }
@@ -3564,7 +3559,7 @@ table {
     border: 1px solid #eee;
     margin-right: 5px;
     font-size: 12px;
-    transition: all 0.7s; }
+    transition: all .7s; }
     .page-list .filter a:hover {
       border-color: #9befc8;
       color: #00b160;
@@ -3616,6 +3611,6 @@ table {
     width: 50%;
     line-height: 42px;
     border-radius: 3px;
-    transition: all 0.7s; }
+    transition: all .7s; }
     .more a:hover {
       background-color: #f2a194; }

@@ -193,6 +193,7 @@ exports.showEdit = function (req, res, next) {
         action: 'edit',
         topic_id: topic._id,
         title: topic.title,
+        meta: topic.meta,
         content: topic.content,
         tab: topic.tab,
         tabs: config.tabs
@@ -206,6 +207,7 @@ exports.showEdit = function (req, res, next) {
 exports.update = function (req, res, next) {
   var topic_id = req.params.tid;
   var title    = req.body.title;
+  var meta     = req.body.meta;
   var tab      = req.body.tab;
   var content  = req.body.t_content;
 
@@ -236,6 +238,9 @@ exports.update = function (req, res, next) {
           action: 'edit',
           edit_error: editError,
           topic_id: topic._id,
+          meta: meta,
+          title: title,
+          tab: tab,
           content: content,
           tabs: config.tabs
         });
@@ -243,6 +248,7 @@ exports.update = function (req, res, next) {
 
       //保存话题
       topic.title     = title;
+      topic.meta      = meta;
       topic.content   = content;
       topic.tab       = tab;
       topic.update_at = new Date();

@@ -56,13 +56,14 @@
 		}
 		input {
 		  width: 228px;
-		  width: calc(100% - 44px);
+		  width: calc(100% - 45px);
 		  height: 44px;
 		  padding: 4px 12px;
 		  box-shadow: none;
 		  box-sizing: border-box;
 		  border: 1px solid #eee;
 		  border-radius:0 4px 4px 0;
+		  margin:0 0 0 -1px;
 		}
 	}
 	.button{
